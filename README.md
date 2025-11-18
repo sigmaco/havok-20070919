@@ -13,7 +13,6 @@ This repo is a reference code for software preservationists. This is published h
 - Legacy project maintenance  
 - Learning and experimentation with early 2000s physics engine code
 
----
 
 ## What's Included
 
@@ -26,7 +25,6 @@ This repo is a reference code for software preservationists. This is published h
 - **Documentation**  
   Original API reference and technical notes included with the source code.
 
----
 
 ## Folder Structure
 
@@ -38,15 +36,12 @@ SDK header files
 Original API documentation
 
 
----
-
 ## Requirements
 
 - Compatible **C/C++ compiler** (MSVC 2005–2008 recommended)  
 - Windows XP/2003 or compatible legacy environment for building  
 - Build system compatible with legacy Visual Studio project files (if included)
 
----
 
 ## Getting Started
 
@@ -55,7 +50,6 @@ Original API documentation
 3. Compile the source code to produce libraries for your project.  
 4. Refer to `docs/` for API details and usage guidelines.
 
----
 
 ## Contribution
 
@@ -74,3 +68,9 @@ The SIGMA thanks [all the contributors][contributors] by their individual and co
 [license]: https://github.com/sigmaco/havok-20070919/blob/master/LICENSE.txt
 [contributors]: https://github.com/sigmaco/havok-20070919/graphs/contributors
 [contribute-guide]: https://github.com/sigmaco/havok-20070919/blob/master/docs/CONTRIBUTING.md
+
+Administrative contact: archivo@sigmaco.org. 
+
+Technical contact: tech@sigmaco.org. 
+
+Legal contact: legal@sigmaco.org.
