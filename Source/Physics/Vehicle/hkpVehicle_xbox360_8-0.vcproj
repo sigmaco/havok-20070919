@@ -1,0 +1,544 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="hkpVehicle"
+	ProjectGUID="{12C56573-EE49-4DD7-B3BF-53550A8C0435}"
+	>
+	<Platforms>
+		<Platform
+			Name="Xbox 360"
+		/>
+	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
+	<Configurations>
+		<Configuration
+			Name="Release Multithreaded|Xbox 360"
+			OutputDirectory="..\..\..\Lib\xbox360_net_8-0\release_multithreaded"
+			IntermediateDirectory="..\..\..\Obj\xbox360_net_8-0\release_multithreaded\hkpVehicle"
+			ConfigurationType="4"
+			UseOfMFC="-1"
+			UseOfATL="0"
+			CharacterSet="2"
+			WholeProgramOptimization="false">
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool Name="VCCustomBuildTool" 			 />
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+			/>
+			<Tool
+				Name="VCCLX360CompilerTool"
+				AdditionalOptions="/QVMX128 /QVMXReserve"
+				Optimization="3"
+				FavorSizeOrSpeed="1"
+				AdditionalIncludeDirectories="..\..,"
+				PreprocessorDefinitions="_XBOX,XBOX,NDEBUG,_LIB,,HK_DISABLE_VECTOR4_CONSTRUCTORS"
+				StringPooling="TRUE"
+				MinimalRebuild="false"
+				ExceptionHandling="0"
+				RuntimeLibrary="0"
+				BufferSecurityCheck="false"
+				EnableFunctionLevelLinking="FALSE"
+				RuntimeTypeInfo="TRUE"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="Physics/Vehicle/hkpVehicle.h"
+				PrecompiledHeaderFile="$(INTDIR)\Vehicle.pch"
+				AssemblerListingLocation="$(INTDIR)/"
+				ObjectFile="$(INTDIR)/"
+				ProgramDataBaseFileName="$(OUTDIR)/$(TARGETNAME).pdb"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				Detect64BitPortabilityProblems="FALSE"
+				DebugInformationFormat="3"
+			/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="$(OUTDIR)\hkpVehicle.lib"
+				SuppressStartupBanner="TRUE"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+		</Configuration>
+		<Configuration
+			Name="FullDebug Multithreaded|Xbox 360"
+			OutputDirectory="..\..\..\Lib\xbox360_net_8-0\fulldebug_multithreaded"
+			IntermediateDirectory="..\..\..\Obj\xbox360_net_8-0\fulldebug_multithreaded\hkpVehicle"
+			ConfigurationType="4"
+			UseOfMFC="-1"
+			UseOfATL="0"
+			CharacterSet="2"
+			WholeProgramOptimization="false">
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool Name="VCCustomBuildTool" 			 />
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+			/>
+			<Tool
+				Name="VCCLX360CompilerTool"
+				AdditionalOptions="/QVMX128 /QVMXReserve"
+				Optimization="0"
+				FavorSizeOrSpeed="0"
+				AdditionalIncludeDirectories="..\..,"
+				PreprocessorDefinitions="_XBOX,XBOX,_DEBUG,HK_DEBUG,HK_FULLDEBUG,_LIB,,HK_DISABLE_VECTOR4_CONSTRUCTORS"
+				StringPooling="TRUE"
+				MinimalRebuild="true"
+				ExceptionHandling="0"
+				RuntimeLibrary="1"
+				BufferSecurityCheck="false"
+				EnableFunctionLevelLinking="FALSE"
+				RuntimeTypeInfo="TRUE"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="Physics/Vehicle/hkpVehicle.h"
+				PrecompiledHeaderFile="$(INTDIR)\Vehicle.pch"
+				AssemblerListingLocation="$(INTDIR)/"
+				ObjectFile="$(INTDIR)/"
+				ProgramDataBaseFileName="$(OUTDIR)/$(TARGETNAME).pdb"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				Detect64BitPortabilityProblems="FALSE"
+				DebugInformationFormat="3"
+			/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="$(OUTDIR)\hkpVehicle.lib"
+				SuppressStartupBanner="TRUE"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+		</Configuration>
+		<Configuration
+			Name="Debug Multithreaded|Xbox 360"
+			OutputDirectory="..\..\..\Lib\xbox360_net_8-0\debug_multithreaded"
+			IntermediateDirectory="..\..\..\Obj\xbox360_net_8-0\debug_multithreaded\hkpVehicle"
+			ConfigurationType="4"
+			UseOfMFC="-1"
+			UseOfATL="0"
+			CharacterSet="2"
+			WholeProgramOptimization="false">
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool Name="VCCustomBuildTool" 			 />
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+			/>
+			<Tool
+				Name="VCCLX360CompilerTool"
+				AdditionalOptions="/QVMX128 /QVMXReserve"
+				Optimization="3"
+				FavorSizeOrSpeed="1"
+				AdditionalIncludeDirectories="..\..,"
+				PreprocessorDefinitions="_XBOX,XBOX,_DEBUG,HK_DEBUG,_LIB,,HK_DISABLE_VECTOR4_CONSTRUCTORS"
+				StringPooling="TRUE"
+				MinimalRebuild="true"
+				ExceptionHandling="0"
+				RuntimeLibrary="1"
+				BufferSecurityCheck="false"
+				EnableFunctionLevelLinking="FALSE"
+				RuntimeTypeInfo="TRUE"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="Physics/Vehicle/hkpVehicle.h"
+				PrecompiledHeaderFile="$(INTDIR)\Vehicle.pch"
+				AssemblerListingLocation="$(INTDIR)/"
+				ObjectFile="$(INTDIR)/"
+				ProgramDataBaseFileName="$(OUTDIR)/$(TARGETNAME).pdb"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				Detect64BitPortabilityProblems="FALSE"
+				DebugInformationFormat="3"
+			/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="$(OUTDIR)\hkpVehicle.lib"
+				SuppressStartupBanner="TRUE"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+		</Configuration>
+
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+			<Filter
+Name="AeroDynamics"
+>
+	<File
+RelativePath=".\AeroDynamics\hkpVehicleAerodynamics.h"
+>
+</File>
+	<File
+RelativePath=".\AeroDynamics\hkpVehicleAerodynamicsClass.cpp"
+>
+</File>
+	<Filter
+Name="Default"
+>
+	<File
+RelativePath=".\AeroDynamics\Default\hkpVehicleDefaultAerodynamics.cpp"
+>
+</File>
+	<File
+RelativePath=".\AeroDynamics\Default\hkpVehicleDefaultAerodynamics.h"
+>
+</File>
+	<File
+RelativePath=".\AeroDynamics\Default\hkpVehicleDefaultAerodynamicsClass.cpp"
+>
+</File>
+	</Filter>
+	</Filter>
+	<Filter
+Name="Brake"
+>
+	<File
+RelativePath=".\Brake\hkpVehicleBrake.h"
+>
+</File>
+	<File
+RelativePath=".\Brake\hkpVehicleBrakeClass.cpp"
+>
+</File>
+	<Filter
+Name="Default"
+>
+	<File
+RelativePath=".\Brake\Default\hkpVehicleDefaultBrake.cpp"
+>
+</File>
+	<File
+RelativePath=".\Brake\Default\hkpVehicleDefaultBrake.h"
+>
+</File>
+	<File
+RelativePath=".\Brake\Default\hkpVehicleDefaultBrakeClass.cpp"
+>
+</File>
+	</Filter>
+	</Filter>
+	<Filter
+Name="Camera"
+>
+	<File
+RelativePath=".\Camera\hkp1dAngularFollowCam.cpp"
+>
+</File>
+	<File
+RelativePath=".\Camera\hkp1dAngularFollowCam.h"
+>
+</File>
+	<File
+RelativePath=".\Camera\hkp1dAngularFollowCamCinfo.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Classes"
+>
+	<File
+RelativePath=".\Classes\hkpVehicleClasses.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="DriverInput"
+>
+	<File
+RelativePath=".\DriverInput\hkpVehicleDriverInput.h"
+>
+</File>
+	<File
+RelativePath=".\DriverInput\hkpVehicleDriverInputClass.cpp"
+>
+</File>
+	<Filter
+Name="Default"
+>
+	<File
+RelativePath=".\DriverInput\Default\hkpVehicleDefaultAnalogDriverInput.cpp"
+>
+</File>
+	<File
+RelativePath=".\DriverInput\Default\hkpVehicleDefaultAnalogDriverInput.h"
+>
+</File>
+	<File
+RelativePath=".\DriverInput\Default\hkpVehicleDefaultAnalogDriverInputClass.cpp"
+>
+</File>
+	</Filter>
+	</Filter>
+	<Filter
+Name="Engine"
+>
+	<File
+RelativePath=".\Engine\hkpVehicleEngine.h"
+>
+</File>
+	<File
+RelativePath=".\Engine\hkpVehicleEngineClass.cpp"
+>
+</File>
+	<Filter
+Name="Default"
+>
+	<File
+RelativePath=".\Engine\Default\hkpVehicleDefaultEngine.cpp"
+>
+</File>
+	<File
+RelativePath=".\Engine\Default\hkpVehicleDefaultEngine.h"
+>
+</File>
+	<File
+RelativePath=".\Engine\Default\hkpVehicleDefaultEngineClass.cpp"
+>
+</File>
+	</Filter>
+	</Filter>
+	<Filter
+Name="Friction"
+>
+	<File
+RelativePath=".\Friction\hkpVehicleFriction.h"
+>
+</File>
+	<File
+RelativePath=".\Friction\hkpVehicleFrictionClass.cpp"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Steering"
+>
+	<File
+RelativePath=".\Steering\hkpVehicleSteering.h"
+>
+</File>
+	<File
+RelativePath=".\Steering\hkpVehicleSteeringClass.cpp"
+>
+</File>
+	<Filter
+Name="Default"
+>
+	<File
+RelativePath=".\Steering\Default\hkpVehicleDefaultSteering.cpp"
+>
+</File>
+	<File
+RelativePath=".\Steering\Default\hkpVehicleDefaultSteering.h"
+>
+</File>
+	<File
+RelativePath=".\Steering\Default\hkpVehicleDefaultSteeringClass.cpp"
+>
+</File>
+	</Filter>
+	</Filter>
+	<Filter
+Name="Suspension"
+>
+	<File
+RelativePath=".\Suspension\hkpVehicleSuspension.h"
+>
+</File>
+	<File
+RelativePath=".\Suspension\hkpVehicleSuspensionClass.cpp"
+>
+</File>
+	<Filter
+Name="Default"
+>
+	<File
+RelativePath=".\Suspension\Default\hkpVehicleDefaultSuspension.cpp"
+>
+</File>
+	<File
+RelativePath=".\Suspension\Default\hkpVehicleDefaultSuspension.h"
+>
+</File>
+	<File
+RelativePath=".\Suspension\Default\hkpVehicleDefaultSuspensionClass.cpp"
+>
+</File>
+	</Filter>
+	</Filter>
+	<Filter
+Name="Transmission"
+>
+	<File
+RelativePath=".\Transmission\hkpVehicleTransmission.h"
+>
+</File>
+	<File
+RelativePath=".\Transmission\hkpVehicleTransmissionClass.cpp"
+>
+</File>
+	<Filter
+Name="Default"
+>
+	<File
+RelativePath=".\Transmission\Default\hkpVehicleDefaultTransmission.cpp"
+>
+</File>
+	<File
+RelativePath=".\Transmission\Default\hkpVehicleDefaultTransmission.h"
+>
+</File>
+	<File
+RelativePath=".\Transmission\Default\hkpVehicleDefaultTransmissionClass.cpp"
+>
+</File>
+	</Filter>
+	</Filter>
+	<Filter
+Name="TyreMarks"
+>
+	<File
+RelativePath=".\TyreMarks\hkpTyremarksInfo.cpp"
+>
+</File>
+	<File
+RelativePath=".\TyreMarks\hkpTyremarksInfo.h"
+>
+</File>
+	<File
+RelativePath=".\TyreMarks\hkpTyremarksInfoClass.cpp"
+>
+</File>
+	</Filter>
+	<Filter
+Name="VelocityDamper"
+>
+	<File
+RelativePath=".\VelocityDamper\hkpVehicleVelocityDamper.h"
+>
+</File>
+	<File
+RelativePath=".\VelocityDamper\hkpVehicleVelocityDamperClass.cpp"
+>
+</File>
+	<Filter
+Name="Default"
+>
+	<File
+RelativePath=".\VelocityDamper\Default\hkpVehicleDefaultVelocityDamper.cpp"
+>
+</File>
+	<File
+RelativePath=".\VelocityDamper\Default\hkpVehicleDefaultVelocityDamper.h"
+>
+</File>
+	<File
+RelativePath=".\VelocityDamper\Default\hkpVehicleDefaultVelocityDamperClass.cpp"
+>
+</File>
+	</Filter>
+	</Filter>
+	<Filter
+Name="WheelCollide"
+>
+	<File
+RelativePath=".\WheelCollide\hkpVehicleWheelCollide.h"
+>
+</File>
+	<File
+RelativePath=".\WheelCollide\hkpVehicleWheelCollideClass.cpp"
+>
+</File>
+	<Filter
+Name="RayCast"
+>
+	<File
+RelativePath=".\WheelCollide\RayCast\hkpVehicleRaycastWheelCollide.cpp"
+>
+</File>
+	<File
+RelativePath=".\WheelCollide\RayCast\hkpVehicleRaycastWheelCollide.h"
+>
+</File>
+	<File
+RelativePath=".\WheelCollide\RayCast\hkpVehicleRaycastWheelCollideClass.cpp"
+>
+</File>
+	</Filter>
+	</Filter>
+	<File
+RelativePath=".\hkpVehicle.cpp"
+>
+	<FileConfiguration Name="fulldebug multithreaded|Xbox 360"> 
+		<Tool Name="VCCLX360CompilerTool" UsePrecompiledHeader="1"/>
+	</FileConfiguration>
+	<FileConfiguration Name="debug multithreaded|Xbox 360"> 
+		<Tool Name="VCCLX360CompilerTool" UsePrecompiledHeader="1"/>
+	</FileConfiguration>
+	<FileConfiguration Name="release multithreaded|Xbox 360"> 
+		<Tool Name="VCCLX360CompilerTool" UsePrecompiledHeader="1"/>
+	</FileConfiguration>
+</File>
+	<File
+RelativePath=".\hkpVehicle.h"
+>
+</File>
+	<File
+RelativePath=".\hkpVehicleData.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkpVehicleData.h"
+>
+</File>
+	<File
+RelativePath=".\hkpVehicleDataClass.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkpVehicleInstance.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkpVehicleInstance.h"
+>
+</File>
+	<File
+RelativePath=".\hkpVehicleInstance.inl"
+>
+</File>
+	<File
+RelativePath=".\hkpVehicleInstanceClass.cpp"
+>
+</File>
+
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>
+

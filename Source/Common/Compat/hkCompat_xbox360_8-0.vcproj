@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="hkCompat"
+	ProjectGUID="{DCBE15A7-C758-46A5-AB73-1450CC710DCA}"
+	>
+	<Platforms>
+		<Platform
+			Name="Xbox 360"
+		/>
+	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
+	<Configurations>
+		<Configuration
+			Name="Release Multithreaded|Xbox 360"
+			OutputDirectory="..\..\..\Lib\xbox360_net_8-0\release_multithreaded"
+			IntermediateDirectory="..\..\..\Obj\xbox360_net_8-0\release_multithreaded\hkCompat"
+			ConfigurationType="4"
+			UseOfMFC="-1"
+			UseOfATL="0"
+			CharacterSet="2"
+			WholeProgramOptimization="false">
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool Name="VCCustomBuildTool" 			 />
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+			/>
+			<Tool
+				Name="VCCLX360CompilerTool"
+				AdditionalOptions="/QVMX128 /QVMXReserve"
+				Optimization="3"
+				FavorSizeOrSpeed="1"
+				AdditionalIncludeDirectories="..\..,"
+				PreprocessorDefinitions="_XBOX,XBOX,NDEBUG,_LIB,,HAVOK_PHYSICS_ENABLED"
+				StringPooling="TRUE"
+				MinimalRebuild="false"
+				ExceptionHandling="0"
+				RuntimeLibrary="0"
+				BufferSecurityCheck="false"
+				EnableFunctionLevelLinking="FALSE"
+				RuntimeTypeInfo="TRUE"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="Common/Compat/hkCompat.h"
+				PrecompiledHeaderFile="$(INTDIR)\Compat.pch"
+				AssemblerListingLocation="$(INTDIR)/"
+				ObjectFile="$(INTDIR)/"
+				ProgramDataBaseFileName="$(OUTDIR)/$(TARGETNAME).pdb"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				Detect64BitPortabilityProblems="FALSE"
+				DebugInformationFormat="3"
+			/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="$(OUTDIR)\hkCompat.lib"
+				SuppressStartupBanner="TRUE"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+		</Configuration>
+		<Configuration
+			Name="FullDebug Multithreaded|Xbox 360"
+			OutputDirectory="..\..\..\Lib\xbox360_net_8-0\fulldebug_multithreaded"
+			IntermediateDirectory="..\..\..\Obj\xbox360_net_8-0\fulldebug_multithreaded\hkCompat"
+			ConfigurationType="4"
+			UseOfMFC="-1"
+			UseOfATL="0"
+			CharacterSet="2"
+			WholeProgramOptimization="false">
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool Name="VCCustomBuildTool" 			 />
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+			/>
+			<Tool
+				Name="VCCLX360CompilerTool"
+				AdditionalOptions="/QVMX128 /QVMXReserve"
+				Optimization="0"
+				FavorSizeOrSpeed="0"
+				AdditionalIncludeDirectories="..\..,"
+				PreprocessorDefinitions="_XBOX,XBOX,_DEBUG,HK_DEBUG,HK_FULLDEBUG,_LIB,,HAVOK_PHYSICS_ENABLED"
+				StringPooling="TRUE"
+				MinimalRebuild="true"
+				ExceptionHandling="0"
+				RuntimeLibrary="1"
+				BufferSecurityCheck="false"
+				EnableFunctionLevelLinking="FALSE"
+				RuntimeTypeInfo="TRUE"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="Common/Compat/hkCompat.h"
+				PrecompiledHeaderFile="$(INTDIR)\Compat.pch"
+				AssemblerListingLocation="$(INTDIR)/"
+				ObjectFile="$(INTDIR)/"
+				ProgramDataBaseFileName="$(OUTDIR)/$(TARGETNAME).pdb"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				Detect64BitPortabilityProblems="FALSE"
+				DebugInformationFormat="3"
+			/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="$(OUTDIR)\hkCompat.lib"
+				SuppressStartupBanner="TRUE"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+		</Configuration>
+		<Configuration
+			Name="Debug Multithreaded|Xbox 360"
+			OutputDirectory="..\..\..\Lib\xbox360_net_8-0\debug_multithreaded"
+			IntermediateDirectory="..\..\..\Obj\xbox360_net_8-0\debug_multithreaded\hkCompat"
+			ConfigurationType="4"
+			UseOfMFC="-1"
+			UseOfATL="0"
+			CharacterSet="2"
+			WholeProgramOptimization="false">
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool Name="VCCustomBuildTool" 			 />
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+			/>
+			<Tool
+				Name="VCCLX360CompilerTool"
+				AdditionalOptions="/QVMX128 /QVMXReserve"
+				Optimization="3"
+				FavorSizeOrSpeed="1"
+				AdditionalIncludeDirectories="..\..,"
+				PreprocessorDefinitions="_XBOX,XBOX,_DEBUG,HK_DEBUG,_LIB,,HAVOK_PHYSICS_ENABLED"
+				StringPooling="TRUE"
+				MinimalRebuild="true"
+				ExceptionHandling="0"
+				RuntimeLibrary="1"
+				BufferSecurityCheck="false"
+				EnableFunctionLevelLinking="FALSE"
+				RuntimeTypeInfo="TRUE"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="Common/Compat/hkCompat.h"
+				PrecompiledHeaderFile="$(INTDIR)\Compat.pch"
+				AssemblerListingLocation="$(INTDIR)/"
+				ObjectFile="$(INTDIR)/"
+				ProgramDataBaseFileName="$(OUTDIR)/$(TARGETNAME).pdb"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				Detect64BitPortabilityProblems="FALSE"
+				DebugInformationFormat="3"
+			/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="$(OUTDIR)\hkCompat.lib"
+				SuppressStartupBanner="TRUE"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+		</Configuration>
+
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+			<File
+RelativePath=".\hkCompat.cpp"
+>
+	<FileConfiguration Name="fulldebug multithreaded|Xbox 360"> 
+		<Tool Name="VCCLX360CompilerTool" UsePrecompiledHeader="1"/>
+	</FileConfiguration>
+	<FileConfiguration Name="debug multithreaded|Xbox 360"> 
+		<Tool Name="VCCLX360CompilerTool" UsePrecompiledHeader="1"/>
+	</FileConfiguration>
+	<FileConfiguration Name="release multithreaded|Xbox 360"> 
+		<Tool Name="VCCLX360CompilerTool" UsePrecompiledHeader="1"/>
+	</FileConfiguration>
+</File>
+	<File
+RelativePath=".\hkCompat.h"
+>
+</File>
+	<File
+RelativePath=".\hkCompatUtil.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkCompatUtil.h"
+>
+</File>
+	<File
+RelativePath=".\hkCompatVersions.h"
+>
+</File>
+	<File
+RelativePath=".\hkCompat_hk300_hk310.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkCompat_hk310_hk320.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkCompat_hk320_hk330a2.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkCompat_hk330a2_hk330b1.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkCompat_hk330b1_hk330b2.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkCompat_hk330b2_hk330r1.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkCompat_hk330r1_hk400b1.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkCompat_hk400b1_hk400b2.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkCompat_hk400b2_hk400r1.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkCompat_hk400r1_hk402r1.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkCompat_hk402r1_hk403r1.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkCompat_hk403r1_hk410b1.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkCompat_hk410b1_hk410r1.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkCompat_hk410r1_hk450b1.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkCompat_hk450b1_hk450r1.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkCompat_hk450r1_hk451r1.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkCompat_hk451r1_hk452r1.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkCompat_hk452r1_hk460b1.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkCompat_hk460b1_hk460b2.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkCompat_hk460b2_hk460r1.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkCompat_hk460r1_hk461r1.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkCompat_hk461r1_hk500b1.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkCompat_hk500b1_hk500r1.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkCompat_hk500r1_hk510r1.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkHavok300Classes.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkHavok310Classes.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkHavok320Classes.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkHavok330a2Classes.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkHavok330b1Classes.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkHavok330b2Classes.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkHavok330r1Classes.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkHavok400b1Classes.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkHavok400b2Classes.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkHavok400r1Classes.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkHavok402r1Classes.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkHavok403r1Classes.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkHavok410b1Classes.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkHavok410r1Classes.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkHavok450b1Classes.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkHavok450r1Classes.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkHavok451r1Classes.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkHavok452r1Classes.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkHavok460b1Classes.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkHavok460b2Classes.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkHavok460r1Classes.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkHavok461r1Classes.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkHavok500b1Classes.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkHavok500r1Classes.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkHavokAllClasses.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkHavokAllClasses.h"
+>
+</File>
+	<File
+RelativePath=".\hkHavokAllClassUpdates.h"
+>
+</File>
+	<File
+RelativePath=".\hkHavokVersionClasses.h"
+>
+</File>
+
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>
+

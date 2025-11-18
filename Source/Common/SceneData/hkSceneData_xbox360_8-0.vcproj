@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="hkSceneData"
+	ProjectGUID="{D9898BA0-B74C-404F-B858-9CDAF2F6032B}"
+	>
+	<Platforms>
+		<Platform
+			Name="Xbox 360"
+		/>
+	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
+	<Configurations>
+		<Configuration
+			Name="Release Multithreaded|Xbox 360"
+			OutputDirectory="..\..\..\Lib\xbox360_net_8-0\release_multithreaded"
+			IntermediateDirectory="..\..\..\Obj\xbox360_net_8-0\release_multithreaded\hkSceneData"
+			ConfigurationType="4"
+			UseOfMFC="-1"
+			UseOfATL="0"
+			CharacterSet="2"
+			WholeProgramOptimization="false">
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool Name="VCCustomBuildTool" 			 />
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+			/>
+			<Tool
+				Name="VCCLX360CompilerTool"
+				AdditionalOptions="/QVMX128 /QVMXReserve"
+				Optimization="3"
+				FavorSizeOrSpeed="1"
+				AdditionalIncludeDirectories="..\..,"
+				PreprocessorDefinitions="_XBOX,XBOX,NDEBUG,_LIB,,HK_DISABLE_VECTOR4_CONSTRUCTORS"
+				StringPooling="TRUE"
+				MinimalRebuild="false"
+				ExceptionHandling="0"
+				RuntimeLibrary="0"
+				BufferSecurityCheck="false"
+				EnableFunctionLevelLinking="FALSE"
+				RuntimeTypeInfo="TRUE"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="Common/SceneData/hkSceneData.h"
+				PrecompiledHeaderFile="$(INTDIR)\SceneData.pch"
+				AssemblerListingLocation="$(INTDIR)/"
+				ObjectFile="$(INTDIR)/"
+				ProgramDataBaseFileName="$(OUTDIR)/$(TARGETNAME).pdb"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				Detect64BitPortabilityProblems="FALSE"
+				DebugInformationFormat="3"
+			/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="$(OUTDIR)\hkSceneData.lib"
+				SuppressStartupBanner="TRUE"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+		</Configuration>
+		<Configuration
+			Name="FullDebug Multithreaded|Xbox 360"
+			OutputDirectory="..\..\..\Lib\xbox360_net_8-0\fulldebug_multithreaded"
+			IntermediateDirectory="..\..\..\Obj\xbox360_net_8-0\fulldebug_multithreaded\hkSceneData"
+			ConfigurationType="4"
+			UseOfMFC="-1"
+			UseOfATL="0"
+			CharacterSet="2"
+			WholeProgramOptimization="false">
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool Name="VCCustomBuildTool" 			 />
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+			/>
+			<Tool
+				Name="VCCLX360CompilerTool"
+				AdditionalOptions="/QVMX128 /QVMXReserve"
+				Optimization="0"
+				FavorSizeOrSpeed="0"
+				AdditionalIncludeDirectories="..\..,"
+				PreprocessorDefinitions="_XBOX,XBOX,_DEBUG,HK_DEBUG,HK_FULLDEBUG,_LIB,,HK_DISABLE_VECTOR4_CONSTRUCTORS"
+				StringPooling="TRUE"
+				MinimalRebuild="true"
+				ExceptionHandling="0"
+				RuntimeLibrary="1"
+				BufferSecurityCheck="false"
+				EnableFunctionLevelLinking="FALSE"
+				RuntimeTypeInfo="TRUE"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="Common/SceneData/hkSceneData.h"
+				PrecompiledHeaderFile="$(INTDIR)\SceneData.pch"
+				AssemblerListingLocation="$(INTDIR)/"
+				ObjectFile="$(INTDIR)/"
+				ProgramDataBaseFileName="$(OUTDIR)/$(TARGETNAME).pdb"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				Detect64BitPortabilityProblems="FALSE"
+				DebugInformationFormat="3"
+			/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="$(OUTDIR)\hkSceneData.lib"
+				SuppressStartupBanner="TRUE"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+		</Configuration>
+		<Configuration
+			Name="Debug Multithreaded|Xbox 360"
+			OutputDirectory="..\..\..\Lib\xbox360_net_8-0\debug_multithreaded"
+			IntermediateDirectory="..\..\..\Obj\xbox360_net_8-0\debug_multithreaded\hkSceneData"
+			ConfigurationType="4"
+			UseOfMFC="-1"
+			UseOfATL="0"
+			CharacterSet="2"
+			WholeProgramOptimization="false">
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool Name="VCCustomBuildTool" 			 />
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+			/>
+			<Tool
+				Name="VCCLX360CompilerTool"
+				AdditionalOptions="/QVMX128 /QVMXReserve"
+				Optimization="3"
+				FavorSizeOrSpeed="1"
+				AdditionalIncludeDirectories="..\..,"
+				PreprocessorDefinitions="_XBOX,XBOX,_DEBUG,HK_DEBUG,_LIB,,HK_DISABLE_VECTOR4_CONSTRUCTORS"
+				StringPooling="TRUE"
+				MinimalRebuild="true"
+				ExceptionHandling="0"
+				RuntimeLibrary="1"
+				BufferSecurityCheck="false"
+				EnableFunctionLevelLinking="FALSE"
+				RuntimeTypeInfo="TRUE"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="Common/SceneData/hkSceneData.h"
+				PrecompiledHeaderFile="$(INTDIR)\SceneData.pch"
+				AssemblerListingLocation="$(INTDIR)/"
+				ObjectFile="$(INTDIR)/"
+				ProgramDataBaseFileName="$(OUTDIR)/$(TARGETNAME).pdb"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				Detect64BitPortabilityProblems="FALSE"
+				DebugInformationFormat="3"
+			/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="$(OUTDIR)\hkSceneData.lib"
+				SuppressStartupBanner="TRUE"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+		</Configuration>
+
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+			<Filter
+Name="Attributes"
+>
+	<File
+RelativePath=".\Attributes\hkxAnimatedFloat.h"
+>
+</File>
+	<File
+RelativePath=".\Attributes\hkxAnimatedFloatClass.cpp"
+>
+</File>
+	<File
+RelativePath=".\Attributes\hkxAnimatedMatrix.h"
+>
+</File>
+	<File
+RelativePath=".\Attributes\hkxAnimatedMatrixClass.cpp"
+>
+</File>
+	<File
+RelativePath=".\Attributes\hkxAnimatedQuaternion.h"
+>
+</File>
+	<File
+RelativePath=".\Attributes\hkxAnimatedQuaternionClass.cpp"
+>
+</File>
+	<File
+RelativePath=".\Attributes\hkxAnimatedVector.h"
+>
+</File>
+	<File
+RelativePath=".\Attributes\hkxAnimatedVectorClass.cpp"
+>
+</File>
+	<File
+RelativePath=".\Attributes\hkxAttribute.h"
+>
+</File>
+	<File
+RelativePath=".\Attributes\hkxAttributeClass.cpp"
+>
+</File>
+	<File
+RelativePath=".\Attributes\hkxAttributeGroup.cpp"
+>
+</File>
+	<File
+RelativePath=".\Attributes\hkxAttributeGroup.h"
+>
+</File>
+	<File
+RelativePath=".\Attributes\hkxAttributeGroupClass.cpp"
+>
+</File>
+	<File
+RelativePath=".\Attributes\hkxAttributeHolder.cpp"
+>
+</File>
+	<File
+RelativePath=".\Attributes\hkxAttributeHolder.h"
+>
+</File>
+	<File
+RelativePath=".\Attributes\hkxAttributeHolderClass.cpp"
+>
+</File>
+	<File
+RelativePath=".\Attributes\hkxSparselyAnimatedBool.h"
+>
+</File>
+	<File
+RelativePath=".\Attributes\hkxSparselyAnimatedBoolClass.cpp"
+>
+</File>
+	<File
+RelativePath=".\Attributes\hkxSparselyAnimatedEnum.h"
+>
+</File>
+	<File
+RelativePath=".\Attributes\hkxSparselyAnimatedEnumClass.cpp"
+>
+</File>
+	<File
+RelativePath=".\Attributes\hkxSparselyAnimatedInt.h"
+>
+</File>
+	<File
+RelativePath=".\Attributes\hkxSparselyAnimatedIntClass.cpp"
+>
+</File>
+	<File
+RelativePath=".\Attributes\hkxSparselyAnimatedString.h"
+>
+</File>
+	<File
+RelativePath=".\Attributes\hkxSparselyAnimatedStringClass.cpp"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Camera"
+>
+	<File
+RelativePath=".\Camera\hkxCamera.h"
+>
+</File>
+	<File
+RelativePath=".\Camera\hkxCameraClass.cpp"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Classes"
+>
+	<File
+RelativePath=".\Classes\hkSceneDataClasses.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Environment"
+>
+	<File
+RelativePath=".\Environment\hkxEnvironment.cpp"
+>
+</File>
+	<File
+RelativePath=".\Environment\hkxEnvironment.h"
+>
+</File>
+	<File
+RelativePath=".\Environment\hkxEnvironmentClass.cpp"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Graph"
+>
+	<File
+RelativePath=".\Graph\hkxNode.cpp"
+>
+</File>
+	<File
+RelativePath=".\Graph\hkxNode.h"
+>
+</File>
+	<File
+RelativePath=".\Graph\hkxNodeClass.cpp"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Light"
+>
+	<File
+RelativePath=".\Light\hkxLight.h"
+>
+</File>
+	<File
+RelativePath=".\Light\hkxLightClass.cpp"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Material"
+>
+	<File
+RelativePath=".\Material\hkxMaterial.h"
+>
+</File>
+	<File
+RelativePath=".\Material\hkxMaterialClass.cpp"
+>
+</File>
+	<File
+RelativePath=".\Material\hkxMaterialEffect.h"
+>
+</File>
+	<File
+RelativePath=".\Material\hkxMaterialEffectClass.cpp"
+>
+</File>
+	<File
+RelativePath=".\Material\hkxTextureFile.h"
+>
+</File>
+	<File
+RelativePath=".\Material\hkxTextureFileClass.cpp"
+>
+</File>
+	<File
+RelativePath=".\Material\hkxTextureInplace.h"
+>
+</File>
+	<File
+RelativePath=".\Material\hkxTextureInplaceClass.cpp"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Mesh"
+>
+	<File
+RelativePath=".\Mesh\hkxIndexBuffer.cpp"
+>
+</File>
+	<File
+RelativePath=".\Mesh\hkxIndexBuffer.h"
+>
+</File>
+	<File
+RelativePath=".\Mesh\hkxIndexBufferClass.cpp"
+>
+</File>
+	<File
+RelativePath=".\Mesh\hkxMesh.cpp"
+>
+</File>
+	<File
+RelativePath=".\Mesh\hkxMesh.h"
+>
+</File>
+	<File
+RelativePath=".\Mesh\hkxMeshClass.cpp"
+>
+</File>
+	<File
+RelativePath=".\Mesh\hkxMeshSection.cpp"
+>
+</File>
+	<File
+RelativePath=".\Mesh\hkxMeshSection.h"
+>
+</File>
+	<File
+RelativePath=".\Mesh\hkxMeshSectionClass.cpp"
+>
+</File>
+	<File
+RelativePath=".\Mesh\hkxMeshSectionUtil.cpp"
+>
+</File>
+	<File
+RelativePath=".\Mesh\hkxMeshSectionUtil.h"
+>
+</File>
+	<File
+RelativePath=".\Mesh\hkxVertexBuffer.h"
+>
+</File>
+	<File
+RelativePath=".\Mesh\hkxVertexBufferClass.cpp"
+>
+</File>
+	<File
+RelativePath=".\Mesh\hkxVertexFormat.h"
+>
+</File>
+	<File
+RelativePath=".\Mesh\hkxVertexFormat.inl"
+>
+</File>
+	<File
+RelativePath=".\Mesh\hkxVertexFormatClass.cpp"
+>
+</File>
+	<File
+RelativePath=".\Mesh\hkxVertexFormatUtil.cpp"
+>
+</File>
+	<File
+RelativePath=".\Mesh\hkxVertexFormatUtil.h"
+>
+</File>
+	<Filter
+Name="Channels"
+>
+	<File
+RelativePath=".\Mesh\Channels\hkxEdgeSelectionChannel.h"
+>
+</File>
+	<File
+RelativePath=".\Mesh\Channels\hkxEdgeSelectionChannelClass.cpp"
+>
+</File>
+	<File
+RelativePath=".\Mesh\Channels\hkxTriangleSelectionChannel.h"
+>
+</File>
+	<File
+RelativePath=".\Mesh\Channels\hkxTriangleSelectionChannelClass.cpp"
+>
+</File>
+	<File
+RelativePath=".\Mesh\Channels\hkxVertexFloatDataChannel.h"
+>
+</File>
+	<File
+RelativePath=".\Mesh\Channels\hkxVertexFloatDataChannelClass.cpp"
+>
+</File>
+	<File
+RelativePath=".\Mesh\Channels\hkxVertexIntDataChannel.h"
+>
+</File>
+	<File
+RelativePath=".\Mesh\Channels\hkxVertexIntDataChannelClass.cpp"
+>
+</File>
+	<File
+RelativePath=".\Mesh\Channels\hkxVertexSelectionChannel.h"
+>
+</File>
+	<File
+RelativePath=".\Mesh\Channels\hkxVertexSelectionChannelClass.cpp"
+>
+</File>
+	<File
+RelativePath=".\Mesh\Channels\hkxVertexVectorDataChannel.h"
+>
+</File>
+	<File
+RelativePath=".\Mesh\Channels\hkxVertexVectorDataChannelClass.cpp"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Formats"
+>
+	<File
+RelativePath=".\Mesh\Formats\hkxVertexP4N4C1T2.h"
+>
+</File>
+	<File
+RelativePath=".\Mesh\Formats\hkxVertexP4N4C1T2Class.cpp"
+>
+</File>
+	<File
+RelativePath=".\Mesh\Formats\hkxVertexP4N4T4B4C1T2.h"
+>
+</File>
+	<File
+RelativePath=".\Mesh\Formats\hkxVertexP4N4T4B4C1T2Class.cpp"
+>
+</File>
+	<File
+RelativePath=".\Mesh\Formats\hkxVertexP4N4T4B4W4I4C1Q2.h"
+>
+</File>
+	<File
+RelativePath=".\Mesh\Formats\hkxVertexP4N4T4B4W4I4C1Q2Class.cpp"
+>
+</File>
+	<File
+RelativePath=".\Mesh\Formats\hkxVertexP4N4T4B4W4I4Q4.h"
+>
+</File>
+	<File
+RelativePath=".\Mesh\Formats\hkxVertexP4N4T4B4W4I4Q4Class.cpp"
+>
+</File>
+	<File
+RelativePath=".\Mesh\Formats\hkxVertexP4N4W4I4C1Q2.h"
+>
+</File>
+	<File
+RelativePath=".\Mesh\Formats\hkxVertexP4N4W4I4C1Q2Class.cpp"
+>
+</File>
+	</Filter>
+	</Filter>
+	<Filter
+Name="Scene"
+>
+	<File
+RelativePath=".\Scene\hkxScene.cpp"
+>
+</File>
+	<File
+RelativePath=".\Scene\hkxScene.h"
+>
+</File>
+	<File
+RelativePath=".\Scene\hkxSceneClass.cpp"
+>
+</File>
+	<File
+RelativePath=".\Scene\hkxSceneUtils.cpp"
+>
+</File>
+	<File
+RelativePath=".\Scene\hkxSceneUtils.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Selection"
+>
+	<File
+RelativePath=".\Selection\hkxNodeSelectionSet.h"
+>
+</File>
+	<File
+RelativePath=".\Selection\hkxNodeSelectionSetClass.cpp"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Skin"
+>
+	<File
+RelativePath=".\Skin\hkxSkinBinding.h"
+>
+</File>
+	<File
+RelativePath=".\Skin\hkxSkinBindingClass.cpp"
+>
+</File>
+	</Filter>
+	<Filter
+Name="UnitTest"
+>
+	<File
+RelativePath=".\UnitTest\Tests.h"
+>
+</File>
+	<Filter
+Name="Environment"
+>
+	<File
+RelativePath=".\UnitTest\Environment\environment.cpp"
+>
+</File>
+	</Filter>
+	</Filter>
+	<File
+RelativePath=".\hkSceneData.cpp"
+>
+	<FileConfiguration Name="fulldebug multithreaded|Xbox 360"> 
+		<Tool Name="VCCLX360CompilerTool" UsePrecompiledHeader="1"/>
+	</FileConfiguration>
+	<FileConfiguration Name="debug multithreaded|Xbox 360"> 
+		<Tool Name="VCCLX360CompilerTool" UsePrecompiledHeader="1"/>
+	</FileConfiguration>
+	<FileConfiguration Name="release multithreaded|Xbox 360"> 
+		<Tool Name="VCCLX360CompilerTool" UsePrecompiledHeader="1"/>
+	</FileConfiguration>
+</File>
+	<File
+RelativePath=".\hkSceneData.h"
+>
+</File>
+
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>
+

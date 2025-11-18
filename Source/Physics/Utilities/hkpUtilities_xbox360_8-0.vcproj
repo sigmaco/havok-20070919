@@ -1,0 +1,1419 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="hkpUtilities"
+	ProjectGUID="{B31BB6F5-0C37-4169-A2B0-282B316CAD64}"
+	>
+	<Platforms>
+		<Platform
+			Name="Xbox 360"
+		/>
+	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
+	<Configurations>
+		<Configuration
+			Name="Release Multithreaded|Xbox 360"
+			OutputDirectory="..\..\..\Lib\xbox360_net_8-0\release_multithreaded"
+			IntermediateDirectory="..\..\..\Obj\xbox360_net_8-0\release_multithreaded\hkpUtilities"
+			ConfigurationType="4"
+			UseOfMFC="-1"
+			UseOfATL="0"
+			CharacterSet="2"
+			WholeProgramOptimization="false">
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool Name="VCCustomBuildTool" 			 />
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+			/>
+			<Tool
+				Name="VCCLX360CompilerTool"
+				AdditionalOptions="/QVMX128 /QVMXReserve"
+				Optimization="3"
+				FavorSizeOrSpeed="1"
+				AdditionalIncludeDirectories="..\..,"
+				PreprocessorDefinitions="_XBOX,XBOX,NDEBUG,_LIB,,"
+				StringPooling="TRUE"
+				MinimalRebuild="false"
+				ExceptionHandling="0"
+				RuntimeLibrary="0"
+				BufferSecurityCheck="false"
+				EnableFunctionLevelLinking="FALSE"
+				RuntimeTypeInfo="TRUE"
+				UsePrecompiledHeader="0"
+				PrecompiledHeaderThrough=""
+				PrecompiledHeaderFile="$(INTDIR)\Utilities.pch"
+				AssemblerListingLocation="$(INTDIR)/"
+				ObjectFile="$(INTDIR)/"
+				ProgramDataBaseFileName="$(OUTDIR)/$(TARGETNAME).pdb"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				Detect64BitPortabilityProblems="FALSE"
+				DebugInformationFormat="3"
+			/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="$(OUTDIR)\hkpUtilities.lib"
+				SuppressStartupBanner="TRUE"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+		</Configuration>
+		<Configuration
+			Name="FullDebug Multithreaded|Xbox 360"
+			OutputDirectory="..\..\..\Lib\xbox360_net_8-0\fulldebug_multithreaded"
+			IntermediateDirectory="..\..\..\Obj\xbox360_net_8-0\fulldebug_multithreaded\hkpUtilities"
+			ConfigurationType="4"
+			UseOfMFC="-1"
+			UseOfATL="0"
+			CharacterSet="2"
+			WholeProgramOptimization="false">
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool Name="VCCustomBuildTool" 			 />
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+			/>
+			<Tool
+				Name="VCCLX360CompilerTool"
+				AdditionalOptions="/QVMX128 /QVMXReserve"
+				Optimization="0"
+				FavorSizeOrSpeed="0"
+				AdditionalIncludeDirectories="..\..,"
+				PreprocessorDefinitions="_XBOX,XBOX,_DEBUG,HK_DEBUG,HK_FULLDEBUG,_LIB,,"
+				StringPooling="TRUE"
+				MinimalRebuild="true"
+				ExceptionHandling="0"
+				RuntimeLibrary="1"
+				BufferSecurityCheck="false"
+				EnableFunctionLevelLinking="FALSE"
+				RuntimeTypeInfo="TRUE"
+				UsePrecompiledHeader="0"
+				PrecompiledHeaderThrough=""
+				PrecompiledHeaderFile="$(INTDIR)\Utilities.pch"
+				AssemblerListingLocation="$(INTDIR)/"
+				ObjectFile="$(INTDIR)/"
+				ProgramDataBaseFileName="$(OUTDIR)/$(TARGETNAME).pdb"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				Detect64BitPortabilityProblems="FALSE"
+				DebugInformationFormat="3"
+			/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="$(OUTDIR)\hkpUtilities.lib"
+				SuppressStartupBanner="TRUE"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+		</Configuration>
+		<Configuration
+			Name="Debug Multithreaded|Xbox 360"
+			OutputDirectory="..\..\..\Lib\xbox360_net_8-0\debug_multithreaded"
+			IntermediateDirectory="..\..\..\Obj\xbox360_net_8-0\debug_multithreaded\hkpUtilities"
+			ConfigurationType="4"
+			UseOfMFC="-1"
+			UseOfATL="0"
+			CharacterSet="2"
+			WholeProgramOptimization="false">
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool Name="VCCustomBuildTool" 			 />
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+			/>
+			<Tool
+				Name="VCCLX360CompilerTool"
+				AdditionalOptions="/QVMX128 /QVMXReserve"
+				Optimization="3"
+				FavorSizeOrSpeed="1"
+				AdditionalIncludeDirectories="..\..,"
+				PreprocessorDefinitions="_XBOX,XBOX,_DEBUG,HK_DEBUG,_LIB,,"
+				StringPooling="TRUE"
+				MinimalRebuild="true"
+				ExceptionHandling="0"
+				RuntimeLibrary="1"
+				BufferSecurityCheck="false"
+				EnableFunctionLevelLinking="FALSE"
+				RuntimeTypeInfo="TRUE"
+				UsePrecompiledHeader="0"
+				PrecompiledHeaderThrough=""
+				PrecompiledHeaderFile="$(INTDIR)\Utilities.pch"
+				AssemblerListingLocation="$(INTDIR)/"
+				ObjectFile="$(INTDIR)/"
+				ProgramDataBaseFileName="$(OUTDIR)/$(TARGETNAME).pdb"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				Detect64BitPortabilityProblems="FALSE"
+				DebugInformationFormat="3"
+			/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="$(OUTDIR)\hkpUtilities.lib"
+				SuppressStartupBanner="TRUE"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+		</Configuration>
+
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+			<Filter
+Name="Actions"
+>
+	<Filter
+Name="AngularDashpot"
+>
+	<File
+RelativePath=".\Actions\AngularDashpot\hkpAngularDashpotAction.cpp"
+>
+</File>
+	<File
+RelativePath=".\Actions\AngularDashpot\hkpAngularDashpotAction.h"
+>
+</File>
+	<File
+RelativePath=".\Actions\AngularDashpot\hkpAngularDashpotAction.inl"
+>
+</File>
+	<File
+RelativePath=".\Actions\AngularDashpot\hkpAngularDashpotActionClass.cpp"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Dashpot"
+>
+	<File
+RelativePath=".\Actions\Dashpot\hkpDashpotAction.cpp"
+>
+</File>
+	<File
+RelativePath=".\Actions\Dashpot\hkpDashpotAction.h"
+>
+</File>
+	<File
+RelativePath=".\Actions\Dashpot\hkpDashpotAction.inl"
+>
+</File>
+	<File
+RelativePath=".\Actions\Dashpot\hkpDashpotActionClass.cpp"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Motor"
+>
+	<File
+RelativePath=".\Actions\Motor\hkpMotorAction.cpp"
+>
+</File>
+	<File
+RelativePath=".\Actions\Motor\hkpMotorAction.h"
+>
+</File>
+	<File
+RelativePath=".\Actions\Motor\hkpMotorAction.inl"
+>
+</File>
+	<File
+RelativePath=".\Actions\Motor\hkpMotorActionClass.cpp"
+>
+</File>
+	</Filter>
+	<Filter
+Name="MouseSpring"
+>
+	<File
+RelativePath=".\Actions\MouseSpring\hkpMouseSpringAction.cpp"
+>
+</File>
+	<File
+RelativePath=".\Actions\MouseSpring\hkpMouseSpringAction.h"
+>
+</File>
+	<File
+RelativePath=".\Actions\MouseSpring\hkpMouseSpringActionClass.cpp"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Reorient"
+>
+	<File
+RelativePath=".\Actions\Reorient\hkpReorientAction.cpp"
+>
+</File>
+	<File
+RelativePath=".\Actions\Reorient\hkpReorientAction.h"
+>
+</File>
+	<File
+RelativePath=".\Actions\Reorient\hkpReorientActionClass.cpp"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Spring"
+>
+	<File
+RelativePath=".\Actions\Spring\hkpSpringAction.cpp"
+>
+</File>
+	<File
+RelativePath=".\Actions\Spring\hkpSpringAction.h"
+>
+</File>
+	<File
+RelativePath=".\Actions\Spring\hkpSpringAction.inl"
+>
+</File>
+	<File
+RelativePath=".\Actions\Spring\hkpSpringActionClass.cpp"
+>
+</File>
+	</Filter>
+	</Filter>
+	<Filter
+Name="CharacterControl"
+>
+	<File
+RelativePath=".\CharacterControl\hkpCharacterControl.h"
+>
+</File>
+	<Filter
+Name="CharacterProxy"
+>
+	<File
+RelativePath=".\CharacterControl\CharacterProxy\hkpCharacterProxy.cpp"
+>
+</File>
+	<File
+RelativePath=".\CharacterControl\CharacterProxy\hkpCharacterProxy.h"
+>
+</File>
+	<File
+RelativePath=".\CharacterControl\CharacterProxy\hkpCharacterProxyCinfo.h"
+>
+</File>
+	<File
+RelativePath=".\CharacterControl\CharacterProxy\hkpCharacterProxyCinfoClass.cpp"
+>
+</File>
+	<File
+RelativePath=".\CharacterControl\CharacterProxy\hkpCharacterProxyListener.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="CharacterRigidBody"
+>
+	<File
+RelativePath=".\CharacterControl\CharacterRigidBody\hkpCharacterRigidBody.cpp"
+>
+</File>
+	<File
+RelativePath=".\CharacterControl\CharacterRigidBody\hkpCharacterRigidBody.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="StateMachine"
+>
+	<File
+RelativePath=".\CharacterControl\StateMachine\hkpCharacterContext.cpp"
+>
+</File>
+	<File
+RelativePath=".\CharacterControl\StateMachine\hkpCharacterContext.h"
+>
+</File>
+	<File
+RelativePath=".\CharacterControl\StateMachine\hkpCharacterState.cpp"
+>
+</File>
+	<File
+RelativePath=".\CharacterControl\StateMachine\hkpCharacterState.h"
+>
+</File>
+	<File
+RelativePath=".\CharacterControl\StateMachine\hkpCharacterStateManager.cpp"
+>
+</File>
+	<File
+RelativePath=".\CharacterControl\StateMachine\hkpCharacterStateManager.h"
+>
+</File>
+	<File
+RelativePath=".\CharacterControl\StateMachine\hkpDefaultCharacterStates.h"
+>
+</File>
+	<Filter
+Name="Climbing"
+>
+	<File
+RelativePath=".\CharacterControl\StateMachine\Climbing\hkpCharacterStateClimbing.cpp"
+>
+</File>
+	<File
+RelativePath=".\CharacterControl\StateMachine\Climbing\hkpCharacterStateClimbing.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Flying"
+>
+	<File
+RelativePath=".\CharacterControl\StateMachine\Flying\hkpCharacterStateFlying.cpp"
+>
+</File>
+	<File
+RelativePath=".\CharacterControl\StateMachine\Flying\hkpCharacterStateFlying.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="InAir"
+>
+	<File
+RelativePath=".\CharacterControl\StateMachine\InAir\hkpCharacterStateInAir.cpp"
+>
+</File>
+	<File
+RelativePath=".\CharacterControl\StateMachine\InAir\hkpCharacterStateInAir.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Jumping"
+>
+	<File
+RelativePath=".\CharacterControl\StateMachine\Jumping\hkpCharacterStateJumping.cpp"
+>
+</File>
+	<File
+RelativePath=".\CharacterControl\StateMachine\Jumping\hkpCharacterStateJumping.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="OnGround"
+>
+	<File
+RelativePath=".\CharacterControl\StateMachine\OnGround\hkpCharacterStateOnGround.cpp"
+>
+</File>
+	<File
+RelativePath=".\CharacterControl\StateMachine\OnGround\hkpCharacterStateOnGround.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Util"
+>
+	<File
+RelativePath=".\CharacterControl\StateMachine\Util\hkpCharacterMovementUtil.cpp"
+>
+</File>
+	<File
+RelativePath=".\CharacterControl\StateMachine\Util\hkpCharacterMovementUtil.h"
+>
+</File>
+	</Filter>
+	</Filter>
+	</Filter>
+	<Filter
+Name="Classes"
+>
+	<File
+RelativePath=".\Classes\hkpUtilitiesClasses.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Collide"
+>
+	<File
+RelativePath=".\Collide\hkpShapeGenerator.cpp"
+>
+</File>
+	<File
+RelativePath=".\Collide\hkpShapeGenerator.h"
+>
+</File>
+	<Filter
+Name="ContactModifiers"
+>
+	<Filter
+Name="MassChanger"
+>
+	<File
+RelativePath=".\Collide\ContactModifiers\MassChanger\hkpCollisionMassChangerUtil.cpp"
+>
+</File>
+	<File
+RelativePath=".\Collide\ContactModifiers\MassChanger\hkpCollisionMassChangerUtil.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="SoftContact"
+>
+	<File
+RelativePath=".\Collide\ContactModifiers\SoftContact\hkpSoftContactUtil.cpp"
+>
+</File>
+	<File
+RelativePath=".\Collide\ContactModifiers\SoftContact\hkpSoftContactUtil.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="SurfaceVelocity"
+>
+	<File
+RelativePath=".\Collide\ContactModifiers\SurfaceVelocity\hkpSurfaceVelocityUtil.cpp"
+>
+</File>
+	<File
+RelativePath=".\Collide\ContactModifiers\SurfaceVelocity\hkpSurfaceVelocityUtil.h"
+>
+</File>
+	<File
+RelativePath=".\Collide\ContactModifiers\SurfaceVelocity\hkpSurfaceVelocityUtil.inl"
+>
+</File>
+	<Filter
+Name="Filtered"
+>
+	<File
+RelativePath=".\Collide\ContactModifiers\SurfaceVelocity\Filtered\hkpFilteredSurfaceVelocityUtil.cpp"
+>
+</File>
+	<File
+RelativePath=".\Collide\ContactModifiers\SurfaceVelocity\Filtered\hkpFilteredSurfaceVelocityUtil.h"
+>
+</File>
+	</Filter>
+	</Filter>
+	<Filter
+Name="ViscoseSurface"
+>
+	<File
+RelativePath=".\Collide\ContactModifiers\ViscoseSurface\hkpViscoseSurfaceUtil.cpp"
+>
+</File>
+	<File
+RelativePath=".\Collide\ContactModifiers\ViscoseSurface\hkpViscoseSurfaceUtil.h"
+>
+</File>
+	</Filter>
+	</Filter>
+	<Filter
+Name="Filter"
+>
+	<Filter
+Name="ConstrainedSystem"
+>
+	<File
+RelativePath=".\Collide\Filter\ConstrainedSystem\hkpConstrainedSystemFilter.cpp"
+>
+</File>
+	<File
+RelativePath=".\Collide\Filter\ConstrainedSystem\hkpConstrainedSystemFilter.h"
+>
+</File>
+	<File
+RelativePath=".\Collide\Filter\ConstrainedSystem\hkpConstrainedSystemFilterClass.cpp"
+>
+</File>
+	</Filter>
+	<Filter
+Name="constraint"
+>
+	<File
+RelativePath=".\Collide\Filter\constraint\hkpConstraintCollisionFilter.cpp"
+>
+</File>
+	<File
+RelativePath=".\Collide\Filter\constraint\hkpConstraintCollisionFilter.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="GroupFilter"
+>
+	<File
+RelativePath=".\Collide\Filter\GroupFilter\hkpGroupFilterUtil.cpp"
+>
+</File>
+	<File
+RelativePath=".\Collide\Filter\GroupFilter\hkpGroupFilterUtil.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="pair"
+>
+	<File
+RelativePath=".\Collide\Filter\pair\hkpPairCollisionFilter.cpp"
+>
+</File>
+	<File
+RelativePath=".\Collide\Filter\pair\hkpPairCollisionFilter.h"
+>
+</File>
+	<File
+RelativePath=".\Collide\Filter\pair\hkpPairCollisionFilter.inl"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Pairwise"
+>
+	<File
+RelativePath=".\Collide\Filter\Pairwise\hkpPairwiseCollisionFilter.cpp"
+>
+</File>
+	<File
+RelativePath=".\Collide\Filter\Pairwise\hkpPairwiseCollisionFilter.h"
+>
+</File>
+	<File
+RelativePath=".\Collide\Filter\Pairwise\hkpPairwiseCollisionFilter.inl"
+>
+</File>
+	<File
+RelativePath=".\Collide\Filter\Pairwise\hkpPairwiseCollisionFilterClass.cpp"
+>
+</File>
+	</Filter>
+	</Filter>
+	<Filter
+Name="ShapeUtils"
+>
+	<Filter
+Name="CollapseTransform"
+>
+	<File
+RelativePath=".\Collide\ShapeUtils\CollapseTransform\hkpTransformCollapseUtil.cpp"
+>
+</File>
+	<File
+RelativePath=".\Collide\ShapeUtils\CollapseTransform\hkpTransformCollapseUtil.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="MoppCodeStreamer"
+>
+	<File
+RelativePath=".\Collide\ShapeUtils\MoppCodeStreamer\hkpMoppCodeStreamer.cpp"
+>
+</File>
+	<File
+RelativePath=".\Collide\ShapeUtils\MoppCodeStreamer\hkpMoppCodeStreamer.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="ShapeSharing"
+>
+	<File
+RelativePath=".\Collide\ShapeUtils\ShapeSharing\hkpShapeSharingUtil.cpp"
+>
+</File>
+	<File
+RelativePath=".\Collide\ShapeUtils\ShapeSharing\hkpShapeSharingUtil.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="ShapeShrinker"
+>
+	<File
+RelativePath=".\Collide\ShapeUtils\ShapeShrinker\hkpShapeShrinker.cpp"
+>
+</File>
+	<File
+RelativePath=".\Collide\ShapeUtils\ShapeShrinker\hkpShapeShrinker.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="SimpleMeshTklStreamer"
+>
+	<File
+RelativePath=".\Collide\ShapeUtils\SimpleMeshTklStreamer\hkpSimpleMeshTklStreamer.cpp"
+>
+</File>
+	<File
+RelativePath=".\Collide\ShapeUtils\SimpleMeshTklStreamer\hkpSimpleMeshTklStreamer.h"
+>
+</File>
+	</Filter>
+	</Filter>
+	</Filter>
+	<Filter
+Name="Constraint"
+>
+	<Filter
+Name="Bilateral"
+>
+	<File
+RelativePath=".\Constraint\Bilateral\hkpConstraintUtils.cpp"
+>
+</File>
+	<File
+RelativePath=".\Constraint\Bilateral\hkpConstraintUtils.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Chain"
+>
+	<File
+RelativePath=".\Constraint\Chain\hkpConstraintChainUtil.cpp"
+>
+</File>
+	<File
+RelativePath=".\Constraint\Chain\hkpConstraintChainUtil.h"
+>
+</File>
+	<File
+RelativePath=".\Constraint\Chain\hkpPoweredChainMapper.cpp"
+>
+</File>
+	<File
+RelativePath=".\Constraint\Chain\hkpPoweredChainMapper.h"
+>
+</File>
+	<File
+RelativePath=".\Constraint\Chain\hkpPoweredChainMapper.inl"
+>
+</File>
+	<File
+RelativePath=".\Constraint\Chain\hkpPoweredChainMapperClass.cpp"
+>
+</File>
+	<File
+RelativePath=".\Constraint\Chain\hkpPoweredChainMapperUtil.cpp"
+>
+</File>
+	<File
+RelativePath=".\Constraint\Chain\hkpPoweredChainMapperUtil.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Keyframe"
+>
+	<File
+RelativePath=".\Constraint\Keyframe\hkpKeyFrameUtility.cpp"
+>
+</File>
+	<File
+RelativePath=".\Constraint\Keyframe\hkpKeyFrameUtility.h"
+>
+</File>
+	</Filter>
+	</Filter>
+	<Filter
+Name="Deprecated"
+>
+	<File
+RelativePath=".\Deprecated\hkpCollapseTransformsDeprecated.cpp"
+>
+</File>
+	<File
+RelativePath=".\Deprecated\hkpCollapseTransformsDeprecated.h"
+>
+</File>
+	<Filter
+Name="DisableEntity"
+>
+	<File
+RelativePath=".\Deprecated\DisableEntity\hkpDisableEntityCollisionFilter.cpp"
+>
+</File>
+	<File
+RelativePath=".\Deprecated\DisableEntity\hkpDisableEntityCollisionFilter.h"
+>
+</File>
+	<File
+RelativePath=".\Deprecated\DisableEntity\hkpDisableEntityCollisionFilterClass.cpp"
+>
+</File>
+	</Filter>
+	<Filter
+Name="H1Group"
+>
+	<File
+RelativePath=".\Deprecated\H1Group\hkpGroupCollisionFilter.cpp"
+>
+</File>
+	<File
+RelativePath=".\Deprecated\H1Group\hkpGroupCollisionFilter.h"
+>
+</File>
+	<File
+RelativePath=".\Deprecated\H1Group\hkpGroupCollisionFilterClass.cpp"
+>
+</File>
+	</Filter>
+	</Filter>
+	<Filter
+Name="Destruction"
+>
+	<Filter
+Name="BrakeOffParts"
+>
+	<File
+RelativePath=".\Destruction\BrakeOffParts\hkpBreakOffPartsUtil.cpp"
+>
+</File>
+	<File
+RelativePath=".\Destruction\BrakeOffParts\hkpBreakOffPartsUtil.h"
+>
+</File>
+	<File
+RelativePath=".\Destruction\BrakeOffParts\hkpBreakOffPartsUtil.inl"
+>
+</File>
+	</Filter>
+	</Filter>
+	<Filter
+Name="Dynamics"
+>
+	<Filter
+Name="EntityContactCollector"
+>
+	<File
+RelativePath=".\Dynamics\EntityContactCollector\hkpEntityContactCollector.cpp"
+>
+</File>
+	<File
+RelativePath=".\Dynamics\EntityContactCollector\hkpEntityContactCollector.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Inertia"
+>
+	<File
+RelativePath=".\Dynamics\Inertia\hkpInertiaTensorComputer.cpp"
+>
+</File>
+	<File
+RelativePath=".\Dynamics\Inertia\hkpInertiaTensorComputer.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Lazyadd"
+>
+	<File
+RelativePath=".\Dynamics\Lazyadd\hkpLazyAddToWorld.cpp"
+>
+</File>
+	<File
+RelativePath=".\Dynamics\Lazyadd\hkpLazyAddToWorld.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="SaveContactPoints"
+>
+	<File
+RelativePath=".\Dynamics\SaveContactPoints\hkpPhysicsSystemWithContacts.cpp"
+>
+</File>
+	<File
+RelativePath=".\Dynamics\SaveContactPoints\hkpPhysicsSystemWithContacts.h"
+>
+</File>
+	<File
+RelativePath=".\Dynamics\SaveContactPoints\hkpPhysicsSystemWithContacts.inl"
+>
+</File>
+	<File
+RelativePath=".\Dynamics\SaveContactPoints\hkpPhysicsSystemWithContactsClass.cpp"
+>
+</File>
+	<File
+RelativePath=".\Dynamics\SaveContactPoints\hkpSaveContactPointsEndianUtil.cpp"
+>
+</File>
+	<File
+RelativePath=".\Dynamics\SaveContactPoints\hkpSaveContactPointsEndianUtil.h"
+>
+</File>
+	<File
+RelativePath=".\Dynamics\SaveContactPoints\hkpSaveContactPointsUtil.cpp"
+>
+</File>
+	<File
+RelativePath=".\Dynamics\SaveContactPoints\hkpSaveContactPointsUtil.h"
+>
+</File>
+	<File
+RelativePath=".\Dynamics\SaveContactPoints\hkpSerializedAgentNnEntry.cpp"
+>
+</File>
+	<File
+RelativePath=".\Dynamics\SaveContactPoints\hkpSerializedAgentNnEntry.h"
+>
+</File>
+	<File
+RelativePath=".\Dynamics\SaveContactPoints\hkpSerializedAgentNnEntryClass.cpp"
+>
+</File>
+	</Filter>
+	<Filter
+Name="SuspendInactiveAgents"
+>
+	<File
+RelativePath=".\Dynamics\SuspendInactiveAgents\hkpSuspendInactiveAgentsUtil.cpp"
+>
+</File>
+	<File
+RelativePath=".\Dynamics\SuspendInactiveAgents\hkpSuspendInactiveAgentsUtil.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="TimeSteppers"
+>
+	<File
+RelativePath=".\Dynamics\TimeSteppers\hkpAsynchronousTimestepper.cpp"
+>
+</File>
+	<File
+RelativePath=".\Dynamics\TimeSteppers\hkpAsynchronousTimestepper.h"
+>
+</File>
+	<File
+RelativePath=".\Dynamics\TimeSteppers\hkpVariableTimestepper.cpp"
+>
+</File>
+	<File
+RelativePath=".\Dynamics\TimeSteppers\hkpVariableTimestepper.h"
+>
+</File>
+	</Filter>
+	</Filter>
+	<Filter
+Name="Serialize"
+>
+	<File
+RelativePath=".\Serialize\hkpDisplayBindingData.h"
+>
+</File>
+	<File
+RelativePath=".\Serialize\hkpDisplayBindingDataClass.cpp"
+>
+</File>
+	<File
+RelativePath=".\Serialize\hkpHavokSnapshot.cpp"
+>
+</File>
+	<File
+RelativePath=".\Serialize\hkpHavokSnapshot.h"
+>
+</File>
+	<File
+RelativePath=".\Serialize\hkpPhysicsData.cpp"
+>
+</File>
+	<File
+RelativePath=".\Serialize\hkpPhysicsData.h"
+>
+</File>
+	<File
+RelativePath=".\Serialize\hkpPhysicsData.inl"
+>
+</File>
+	<File
+RelativePath=".\Serialize\hkpPhysicsDataClass.cpp"
+>
+</File>
+	<Filter
+Name="Display"
+>
+	<File
+RelativePath=".\Serialize\Display\hkpSerializedDisplayMarker.h"
+>
+</File>
+	<File
+RelativePath=".\Serialize\Display\hkpSerializedDisplayMarker.inl"
+>
+</File>
+	<File
+RelativePath=".\Serialize\Display\hkpSerializedDisplayMarkerClass.cpp"
+>
+</File>
+	<File
+RelativePath=".\Serialize\Display\hkpSerializedDisplayMarkerList.h"
+>
+</File>
+	<File
+RelativePath=".\Serialize\Display\hkpSerializedDisplayMarkerList.inl"
+>
+</File>
+	<File
+RelativePath=".\Serialize\Display\hkpSerializedDisplayMarkerListClass.cpp"
+>
+</File>
+	<File
+RelativePath=".\Serialize\Display\hkpSerializedDisplayRbTransforms.cpp"
+>
+</File>
+	<File
+RelativePath=".\Serialize\Display\hkpSerializedDisplayRbTransforms.h"
+>
+</File>
+	<File
+RelativePath=".\Serialize\Display\hkpSerializedDisplayRbTransforms.inl"
+>
+</File>
+	<File
+RelativePath=".\Serialize\Display\hkpSerializedDisplayRbTransformsClass.cpp"
+>
+</File>
+	</Filter>
+	</Filter>
+	<Filter
+Name="Thread"
+>
+	<Filter
+Name="JobDispatcher"
+>
+	<File
+RelativePath=".\Thread\JobDispatcher\hkpJobDispatcherUtil.cpp"
+>
+</File>
+	<File
+RelativePath=".\Thread\JobDispatcher\hkpJobDispatcherUtil.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Multithreading"
+>
+	<File
+RelativePath=".\Thread\Multithreading\hkpMultithreadingUtil.cpp"
+>
+</File>
+	<File
+RelativePath=".\Thread\Multithreading\hkpMultithreadingUtil.h"
+>
+</File>
+	</Filter>
+	</Filter>
+	<Filter
+Name="UnitTest"
+>
+	<File
+RelativePath=".\UnitTest\Tests.h"
+>
+</File>
+	<Filter
+Name="Collide"
+>
+	<File
+RelativePath=".\UnitTest\Collide\collapse.cpp"
+>
+</File>
+	<File
+RelativePath=".\UnitTest\Collide\shareshapes.cpp"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Inertia"
+>
+	<File
+RelativePath=".\UnitTest\Inertia\inertia.cpp"
+>
+</File>
+	<File
+RelativePath=".\UnitTest\Inertia\inertiahelper.cpp"
+>
+</File>
+	</Filter>
+	<Filter
+Name="LoadNativeFileInplace"
+>
+	<File
+RelativePath=".\UnitTest\LoadNativeFileInplace\loadNativeFileInplace.cpp"
+>
+</File>
+	</Filter>
+	</Filter>
+	<Filter
+Name="VisualDebugger"
+>
+	<File
+RelativePath=".\VisualDebugger\hkpPhysicsContext.cpp"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\hkpPhysicsContext.h"
+>
+</File>
+	<Filter
+Name="Viewer"
+>
+	<File
+RelativePath=".\VisualDebugger\Viewer\hkpShapeDisplayBuilder.cpp"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\hkpShapeDisplayBuilder.h"
+>
+</File>
+	<Filter
+Name="Collide"
+>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Collide\hkpActiveContactPointViewer.cpp"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Collide\hkpActiveContactPointViewer.h"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Collide\hkpBroadphaseViewer.cpp"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Collide\hkpBroadphaseViewer.h"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Collide\hkpCollideDebugUtil.h"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Collide\hkpContactPointViewer.cpp"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Collide\hkpContactPointViewer.h"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Collide\hkpConvexRadiusBuilder.cpp"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Collide\hkpConvexRadiusBuilder.h"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Collide\hkpConvexRadiusViewer.cpp"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Collide\hkpConvexRadiusViewer.h"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Collide\hkpInactiveContactPointViewer.cpp"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Collide\hkpInactiveContactPointViewer.h"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Collide\hkpMidphaseViewer.cpp"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Collide\hkpMidphaseViewer.h"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Collide\hkpShapeDisplayViewer.cpp"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Collide\hkpShapeDisplayViewer.h"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Collide\hkpToiContactPointViewer.cpp"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Collide\hkpToiContactPointViewer.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Dynamics"
+>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Dynamics\hkpConstraintViewer.cpp"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Dynamics\hkpConstraintViewer.h"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Dynamics\hkpPhantomDisplayViewer.cpp"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Dynamics\hkpPhantomDisplayViewer.h"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Dynamics\hkpRigidBodyCentreOfMassViewer.cpp"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Dynamics\hkpRigidBodyCentreOfMassViewer.h"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Dynamics\hkpRigidBodyInertiaViewer.cpp"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Dynamics\hkpRigidBodyInertiaViewer.h"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Dynamics\hkpSimulationIslandViewer.cpp"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Dynamics\hkpSimulationIslandViewer.h"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Dynamics\hkpSweptTransformDisplayViewer.cpp"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Dynamics\hkpSweptTransformDisplayViewer.h"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Dynamics\hkpWorldMemoryViewer.cpp"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Dynamics\hkpWorldMemoryViewer.h"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Dynamics\hkpWorldSnapshotViewer.cpp"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Dynamics\hkpWorldSnapshotViewer.h"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Dynamics\hkpWorldViewerBase.cpp"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Dynamics\hkpWorldViewerBase.h"
+>
+</File>
+	<Filter
+Name="Constraint"
+>
+	<Filter
+Name="Drawer"
+>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Dynamics\Constraint\Drawer\hkpBallSocketDrawer.cpp"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Dynamics\Constraint\Drawer\hkpBallSocketDrawer.h"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Dynamics\Constraint\Drawer\hkpConstraintChainDrawer.cpp"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Dynamics\Constraint\Drawer\hkpConstraintChainDrawer.h"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Dynamics\Constraint\Drawer\hkpConstraintDrawer.cpp"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Dynamics\Constraint\Drawer\hkpConstraintDrawer.h"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Dynamics\Constraint\Drawer\hkpHingeDrawer.cpp"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Dynamics\Constraint\Drawer\hkpHingeDrawer.h"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Dynamics\Constraint\Drawer\hkpHingeLimitsDrawer.cpp"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Dynamics\Constraint\Drawer\hkpHingeLimitsDrawer.h"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Dynamics\Constraint\Drawer\hkpLimitedHingeDrawer.cpp"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Dynamics\Constraint\Drawer\hkpLimitedHingeDrawer.h"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Dynamics\Constraint\Drawer\hkpPointToPathDrawer.cpp"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Dynamics\Constraint\Drawer\hkpPointToPathDrawer.h"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Dynamics\Constraint\Drawer\hkpPointToPlaneDrawer.cpp"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Dynamics\Constraint\Drawer\hkpPointToPlaneDrawer.h"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Dynamics\Constraint\Drawer\hkpPrimitiveDrawer.cpp"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Dynamics\Constraint\Drawer\hkpPrimitiveDrawer.h"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Dynamics\Constraint\Drawer\hkpPrismaticDrawer.cpp"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Dynamics\Constraint\Drawer\hkpPrismaticDrawer.h"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Dynamics\Constraint\Drawer\hkpPulleyDrawer.cpp"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Dynamics\Constraint\Drawer\hkpPulleyDrawer.h"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Dynamics\Constraint\Drawer\hkpRagdollDrawer.cpp"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Dynamics\Constraint\Drawer\hkpRagdollDrawer.h"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Dynamics\Constraint\Drawer\hkpRagdollLimitsDrawer.cpp"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Dynamics\Constraint\Drawer\hkpRagdollLimitsDrawer.h"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Dynamics\Constraint\Drawer\hkpStiffSpringDrawer.cpp"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Dynamics\Constraint\Drawer\hkpStiffSpringDrawer.h"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Dynamics\Constraint\Drawer\hkpWheelDrawer.cpp"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Dynamics\Constraint\Drawer\hkpWheelDrawer.h"
+>
+</File>
+	</Filter>
+	</Filter>
+	</Filter>
+	<Filter
+Name="Utilities"
+>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Utilities\hkpMousePickingViewer.cpp"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Utilities\hkpMousePickingViewer.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Vehicle"
+>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Vehicle\hkpVehicleViewer.cpp"
+>
+</File>
+	<File
+RelativePath=".\VisualDebugger\Viewer\Vehicle\hkpVehicleViewer.h"
+>
+</File>
+	</Filter>
+	</Filter>
+	</Filter>
+
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>
+

@@ -1,0 +1,1968 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="hkBase"
+	ProjectGUID="{6B820F4E-8ADA-487B-88A2-D74B03CD0669}"
+	>
+	<Platforms>
+		<Platform
+			Name="Xbox 360"
+		/>
+	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
+	<Configurations>
+		<Configuration
+			Name="Release Multithreaded|Xbox 360"
+			OutputDirectory="..\..\..\Lib\xbox360_net_8-0\release_multithreaded"
+			IntermediateDirectory="..\..\..\Obj\xbox360_net_8-0\release_multithreaded\hkBase"
+			ConfigurationType="4"
+			UseOfMFC="-1"
+			UseOfATL="0"
+			CharacterSet="2"
+			WholeProgramOptimization="false">
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool Name="VCCustomBuildTool" 			 />
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+			/>
+			<Tool
+				Name="VCCLX360CompilerTool"
+				AdditionalOptions="/QVMX128 /QVMXReserve"
+				Optimization="3"
+				FavorSizeOrSpeed="1"
+				AdditionalIncludeDirectories="..\..,"
+				PreprocessorDefinitions="_XBOX,XBOX,NDEBUG,_LIB,,"
+				StringPooling="TRUE"
+				MinimalRebuild="false"
+				ExceptionHandling="0"
+				RuntimeLibrary="0"
+				BufferSecurityCheck="false"
+				EnableFunctionLevelLinking="FALSE"
+				RuntimeTypeInfo="TRUE"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="Common/Base/hkBase.h"
+				PrecompiledHeaderFile="$(INTDIR)\Base.pch"
+				AssemblerListingLocation="$(INTDIR)/"
+				ObjectFile="$(INTDIR)/"
+				ProgramDataBaseFileName="$(OUTDIR)/$(TARGETNAME).pdb"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				Detect64BitPortabilityProblems="FALSE"
+				DebugInformationFormat="3"
+			/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="$(OUTDIR)\hkBase.lib"
+				SuppressStartupBanner="TRUE"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+		</Configuration>
+		<Configuration
+			Name="FullDebug Multithreaded|Xbox 360"
+			OutputDirectory="..\..\..\Lib\xbox360_net_8-0\fulldebug_multithreaded"
+			IntermediateDirectory="..\..\..\Obj\xbox360_net_8-0\fulldebug_multithreaded\hkBase"
+			ConfigurationType="4"
+			UseOfMFC="-1"
+			UseOfATL="0"
+			CharacterSet="2"
+			WholeProgramOptimization="false">
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool Name="VCCustomBuildTool" 			 />
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+			/>
+			<Tool
+				Name="VCCLX360CompilerTool"
+				AdditionalOptions="/QVMX128 /QVMXReserve"
+				Optimization="0"
+				FavorSizeOrSpeed="0"
+				AdditionalIncludeDirectories="..\..,"
+				PreprocessorDefinitions="_XBOX,XBOX,_DEBUG,HK_DEBUG,HK_FULLDEBUG,_LIB,,"
+				StringPooling="TRUE"
+				MinimalRebuild="true"
+				ExceptionHandling="0"
+				RuntimeLibrary="1"
+				BufferSecurityCheck="false"
+				EnableFunctionLevelLinking="FALSE"
+				RuntimeTypeInfo="TRUE"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="Common/Base/hkBase.h"
+				PrecompiledHeaderFile="$(INTDIR)\Base.pch"
+				AssemblerListingLocation="$(INTDIR)/"
+				ObjectFile="$(INTDIR)/"
+				ProgramDataBaseFileName="$(OUTDIR)/$(TARGETNAME).pdb"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				Detect64BitPortabilityProblems="FALSE"
+				DebugInformationFormat="3"
+			/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="$(OUTDIR)\hkBase.lib"
+				SuppressStartupBanner="TRUE"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+		</Configuration>
+		<Configuration
+			Name="Debug Multithreaded|Xbox 360"
+			OutputDirectory="..\..\..\Lib\xbox360_net_8-0\debug_multithreaded"
+			IntermediateDirectory="..\..\..\Obj\xbox360_net_8-0\debug_multithreaded\hkBase"
+			ConfigurationType="4"
+			UseOfMFC="-1"
+			UseOfATL="0"
+			CharacterSet="2"
+			WholeProgramOptimization="false">
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool Name="VCCustomBuildTool" 			 />
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+			/>
+			<Tool
+				Name="VCCLX360CompilerTool"
+				AdditionalOptions="/QVMX128 /QVMXReserve"
+				Optimization="3"
+				FavorSizeOrSpeed="1"
+				AdditionalIncludeDirectories="..\..,"
+				PreprocessorDefinitions="_XBOX,XBOX,_DEBUG,HK_DEBUG,_LIB,,"
+				StringPooling="TRUE"
+				MinimalRebuild="true"
+				ExceptionHandling="0"
+				RuntimeLibrary="1"
+				BufferSecurityCheck="false"
+				EnableFunctionLevelLinking="FALSE"
+				RuntimeTypeInfo="TRUE"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="Common/Base/hkBase.h"
+				PrecompiledHeaderFile="$(INTDIR)\Base.pch"
+				AssemblerListingLocation="$(INTDIR)/"
+				ObjectFile="$(INTDIR)/"
+				ProgramDataBaseFileName="$(OUTDIR)/$(TARGETNAME).pdb"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				Detect64BitPortabilityProblems="FALSE"
+				DebugInformationFormat="3"
+			/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="$(OUTDIR)\hkBase.lib"
+				SuppressStartupBanner="TRUE"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+		</Configuration>
+
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+			<Filter
+Name="Algorithm"
+>
+	<Filter
+Name="PseudoRandom"
+>
+	<File
+RelativePath=".\Algorithm\PseudoRandom\hkPseudoRandomGenerator.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Sort"
+>
+	<File
+RelativePath=".\Algorithm\Sort\hkSort.h"
+>
+</File>
+	<File
+RelativePath=".\Algorithm\Sort\hkSort.inl"
+>
+</File>
+	</Filter>
+	<Filter
+Name="UnionFind"
+>
+	<File
+RelativePath=".\Algorithm\UnionFind\hkUnionFind.cpp"
+>
+</File>
+	<File
+RelativePath=".\Algorithm\UnionFind\hkUnionFind.h"
+>
+</File>
+	</Filter>
+	</Filter>
+	<Filter
+Name="Classes"
+>
+	<File
+RelativePath=".\Classes\hkBaseClasses.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Config"
+>
+	<File
+RelativePath=".\Config\hkConfigMemory.h"
+>
+</File>
+	<File
+RelativePath=".\Config\hkConfigMemoryStats.h"
+>
+</File>
+	<File
+RelativePath=".\Config\hkConfigMonitors.h"
+>
+</File>
+	<File
+RelativePath=".\Config\hkConfigSimd.h"
+>
+</File>
+	<File
+RelativePath=".\Config\hkConfigSolverLog.h"
+>
+</File>
+	<File
+RelativePath=".\Config\hkConfigSpuMonitors.h"
+>
+</File>
+	<File
+RelativePath=".\Config\hkConfigThread.h"
+>
+</File>
+	<File
+RelativePath=".\Config\hkConfigVersion.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Container"
+>
+	<Filter
+Name="Array"
+>
+	<File
+RelativePath=".\Container\Array\hkArray.cpp"
+>
+</File>
+	<File
+RelativePath=".\Container\Array\hkArray.h"
+>
+</File>
+	<File
+RelativePath=".\Container\Array\hkArray.inl"
+>
+</File>
+	<File
+RelativePath=".\Container\Array\hkObjectArray.h"
+>
+</File>
+	<File
+RelativePath=".\Container\Array\hkObjectArray.inl"
+>
+</File>
+	<File
+RelativePath=".\Container\Array\hkSmallArray.cpp"
+>
+</File>
+	<File
+RelativePath=".\Container\Array\hkSmallArray.h"
+>
+</File>
+	<File
+RelativePath=".\Container\Array\hkSmallArray.inl"
+>
+</File>
+	</Filter>
+	<Filter
+Name="BitField"
+>
+	<File
+RelativePath=".\Container\BitField\hkBitField.cpp"
+>
+</File>
+	<File
+RelativePath=".\Container\BitField\hkBitField.h"
+>
+</File>
+	<File
+RelativePath=".\Container\BitField\hkBitField.inl"
+>
+</File>
+	<File
+RelativePath=".\Container\BitField\hkBitFieldClass.cpp"
+>
+</File>
+	</Filter>
+	<Filter
+Name="LocalArray"
+>
+	<File
+RelativePath=".\Container\LocalArray\hkLocalArray.h"
+>
+</File>
+	<File
+RelativePath=".\Container\LocalArray\hkLocalBuffer.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="PointerMap"
+>
+	<File
+RelativePath=".\Container\PointerMap\hkPointerMap.h"
+>
+</File>
+	<File
+RelativePath=".\Container\PointerMap\hkPointerMapBase.cpp"
+>
+</File>
+	<File
+RelativePath=".\Container\PointerMap\hkPointerMapBase.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Queue"
+>
+	<File
+RelativePath=".\Container\Queue\hkQueue.h"
+>
+</File>
+	<File
+RelativePath=".\Container\Queue\hkQueue.inl"
+>
+</File>
+	</Filter>
+	<Filter
+Name="String"
+>
+	<File
+RelativePath=".\Container\String\hkString.cpp"
+>
+</File>
+	<File
+RelativePath=".\Container\String\hkString.h"
+>
+</File>
+	<File
+RelativePath=".\Container\String\hkString.inl"
+>
+</File>
+	</Filter>
+	<Filter
+Name="StringMap"
+>
+	<File
+RelativePath=".\Container\StringMap\hkStringMap.h"
+>
+</File>
+	<File
+RelativePath=".\Container\StringMap\hkStringMapBase.cpp"
+>
+</File>
+	<File
+RelativePath=".\Container\StringMap\hkStringMapBase.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Tree"
+>
+	<File
+RelativePath=".\Container\Tree\hkTree.cpp"
+>
+</File>
+	<File
+RelativePath=".\Container\Tree\hkTree.h"
+>
+</File>
+	<File
+RelativePath=".\Container\Tree\hkTree.inl"
+>
+</File>
+	</Filter>
+	</Filter>
+	<Filter
+Name="DebugUtil"
+>
+	<Filter
+Name="DeterminismUtil"
+>
+	<File
+RelativePath=".\DebugUtil\DeterminismUtil\hkCheckDeterminismUtil.cpp"
+>
+</File>
+	<File
+RelativePath=".\DebugUtil\DeterminismUtil\hkCheckDeterminismUtil.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="MultiThreadCheck"
+>
+	<File
+RelativePath=".\DebugUtil\MultiThreadCheck\hkMultiThreadCheck.cpp"
+>
+</File>
+	<File
+RelativePath=".\DebugUtil\MultiThreadCheck\hkMultiThreadCheck.h"
+>
+</File>
+	<File
+RelativePath=".\DebugUtil\MultiThreadCheck\hkMultiThreadCheckClass.cpp"
+>
+</File>
+	</Filter>
+	<Filter
+Name="StatisticsCollector"
+>
+	<File
+RelativePath=".\DebugUtil\StatisticsCollector\hkStatisticsCollector.h"
+>
+</File>
+	<Filter
+Name="MatchSnapshot"
+>
+	<File
+RelativePath=".\DebugUtil\StatisticsCollector\MatchSnapshot\hkMatchSnapshotStatisticsCollector.cpp"
+>
+</File>
+	<File
+RelativePath=".\DebugUtil\StatisticsCollector\MatchSnapshot\hkMatchSnapshotStatisticsCollector.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Report"
+>
+	<File
+RelativePath=".\DebugUtil\StatisticsCollector\Report\hkReportStatisticsCollector.cpp"
+>
+</File>
+	<File
+RelativePath=".\DebugUtil\StatisticsCollector\Report\hkReportStatisticsCollector.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Simple"
+>
+	<File
+RelativePath=".\DebugUtil\StatisticsCollector\Simple\hkSimpleStatisticsCollector.cpp"
+>
+</File>
+	<File
+RelativePath=".\DebugUtil\StatisticsCollector\Simple\hkSimpleStatisticsCollector.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Stream"
+>
+	<File
+RelativePath=".\DebugUtil\StatisticsCollector\Stream\hkStreamStatisticsCollector.cpp"
+>
+</File>
+	<File
+RelativePath=".\DebugUtil\StatisticsCollector\Stream\hkStreamStatisticsCollector.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Util"
+>
+	<File
+RelativePath=".\DebugUtil\StatisticsCollector\Util\hkStatisticsCollectorClassListener.cpp"
+>
+</File>
+	<File
+RelativePath=".\DebugUtil\StatisticsCollector\Util\hkStatisticsCollectorClassListener.h"
+>
+</File>
+	<File
+RelativePath=".\DebugUtil\StatisticsCollector\Util\hkStatisticsCollectorUtil.cpp"
+>
+</File>
+	<File
+RelativePath=".\DebugUtil\StatisticsCollector\Util\hkStatisticsCollectorUtil.h"
+>
+</File>
+	</Filter>
+	</Filter>
+	<Filter
+Name="TraceStream"
+>
+	<File
+RelativePath=".\DebugUtil\TraceStream\hkTraceStream.cpp"
+>
+</File>
+	<File
+RelativePath=".\DebugUtil\TraceStream\hkTraceStream.h"
+>
+</File>
+	</Filter>
+	</Filter>
+	<Filter
+Name="Fwd"
+>
+	<File
+RelativePath=".\Fwd\hkcctype.h"
+>
+</File>
+	<File
+RelativePath=".\Fwd\hkcfloat.h"
+>
+</File>
+	<File
+RelativePath=".\Fwd\hkcmalloc.h"
+>
+</File>
+	<File
+RelativePath=".\Fwd\hkcmath.h"
+>
+</File>
+	<File
+RelativePath=".\Fwd\hkcstdarg.h"
+>
+</File>
+	<File
+RelativePath=".\Fwd\hkcstdio.h"
+>
+</File>
+	<File
+RelativePath=".\Fwd\hkcstdlib.h"
+>
+</File>
+	<File
+RelativePath=".\Fwd\hkcstring.h"
+>
+</File>
+	<File
+RelativePath=".\Fwd\hkstandardheader.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Math"
+>
+	<File
+RelativePath=".\Math\hkMath.cpp"
+>
+</File>
+	<File
+RelativePath=".\Math\hkMath.h"
+>
+</File>
+	<Filter
+Name="Functions"
+>
+	<File
+RelativePath=".\Math\Functions\hkFpuMathFuncs.inl"
+>
+</File>
+	<Filter
+Name="Ppc"
+>
+	<File
+RelativePath=".\Math\Functions\Ppc\hkPowerPcMathFuncs.inl"
+>
+</File>
+	</Filter>
+	</Filter>
+	<Filter
+Name="Linear"
+>
+	<File
+RelativePath=".\Math\Linear\hkMathStream.cpp"
+>
+</File>
+	<File
+RelativePath=".\Math\Linear\hkMathStream.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Matrix"
+>
+	<File
+RelativePath=".\Math\Matrix\hkMatrix3.cpp"
+>
+</File>
+	<File
+RelativePath=".\Math\Matrix\hkMatrix3.h"
+>
+</File>
+	<File
+RelativePath=".\Math\Matrix\hkMatrix3.inl"
+>
+</File>
+	<File
+RelativePath=".\Math\Matrix\hkMatrix4.cpp"
+>
+</File>
+	<File
+RelativePath=".\Math\Matrix\hkMatrix4.h"
+>
+</File>
+	<File
+RelativePath=".\Math\Matrix\hkMatrix4.inl"
+>
+</File>
+	<File
+RelativePath=".\Math\Matrix\hkMatrix6.cpp"
+>
+</File>
+	<File
+RelativePath=".\Math\Matrix\hkMatrix6.h"
+>
+</File>
+	<File
+RelativePath=".\Math\Matrix\hkRotation.cpp"
+>
+</File>
+	<File
+RelativePath=".\Math\Matrix\hkRotation.h"
+>
+</File>
+	<File
+RelativePath=".\Math\Matrix\hkTransform.cpp"
+>
+</File>
+	<File
+RelativePath=".\Math\Matrix\hkTransform.h"
+>
+</File>
+	<File
+RelativePath=".\Math\Matrix\hkTransform.inl"
+>
+</File>
+	</Filter>
+	<Filter
+Name="QsTransform"
+>
+	<File
+RelativePath=".\Math\QsTransform\hkQsTransform.cpp"
+>
+</File>
+	<File
+RelativePath=".\Math\QsTransform\hkQsTransform.h"
+>
+</File>
+	<File
+RelativePath=".\Math\QsTransform\hkQsTransform.inl"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Quaternion"
+>
+	<File
+RelativePath=".\Math\Quaternion\hkQuaternion.cpp"
+>
+</File>
+	<File
+RelativePath=".\Math\Quaternion\hkQuaternion.h"
+>
+</File>
+	<File
+RelativePath=".\Math\Quaternion\hkQuaternion.inl"
+>
+</File>
+	</Filter>
+	<Filter
+Name="SweptTransform"
+>
+	<File
+RelativePath=".\Math\SweptTransform\hkSweptTransform.cpp"
+>
+</File>
+	<File
+RelativePath=".\Math\SweptTransform\hkSweptTransform.h"
+>
+</File>
+	<File
+RelativePath=".\Math\SweptTransform\hkSweptTransform.inl"
+>
+</File>
+	<File
+RelativePath=".\Math\SweptTransform\hkSweptTransformClass.cpp"
+>
+</File>
+	<File
+RelativePath=".\Math\SweptTransform\hkSweptTransformUtil.cpp"
+>
+</File>
+	<File
+RelativePath=".\Math\SweptTransform\hkSweptTransformUtil.h"
+>
+</File>
+	<File
+RelativePath=".\Math\SweptTransform\hkSweptTransformUtil.inl"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Types"
+>
+	<File
+RelativePath=".\Math\Types\hkMathTypes.cpp"
+>
+</File>
+	<Filter
+Name="Fpu"
+>
+	<File
+RelativePath=".\Math\Types\Fpu\hkFpuMathTypes.inl"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Xbox360"
+>
+	<File
+RelativePath=".\Math\Types\Xbox360\hkXbox360MathTypes.inl"
+>
+</File>
+	</Filter>
+	</Filter>
+	<Filter
+Name="Util"
+>
+	<File
+RelativePath=".\Math\Util\hkConvertCoordinateSpace.cpp"
+>
+</File>
+	<File
+RelativePath=".\Math\Util\hkConvertCoordinateSpace.h"
+>
+</File>
+	<File
+RelativePath=".\Math\Util\hkMathUtil.cpp"
+>
+</File>
+	<File
+RelativePath=".\Math\Util\hkMathUtil.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Vector"
+>
+	<File
+RelativePath=".\Math\Vector\hkVector4.cpp"
+>
+</File>
+	<File
+RelativePath=".\Math\Vector\hkVector4.h"
+>
+</File>
+	<File
+RelativePath=".\Math\Vector\hkVector4.inl"
+>
+</File>
+	<File
+RelativePath=".\Math\Vector\hkVector4Util.cpp"
+>
+</File>
+	<File
+RelativePath=".\Math\Vector\hkVector4Util.h"
+>
+</File>
+	<File
+RelativePath=".\Math\Vector\hkVector4Util.inl"
+>
+</File>
+	<Filter
+Name="Fpu"
+>
+	<File
+RelativePath=".\Math\Vector\Fpu\hkFpuVector4.inl"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Xbox360"
+>
+	<File
+RelativePath=".\Math\Vector\Xbox360\hkXbox360Vector4.inl"
+>
+</File>
+	<File
+RelativePath=".\Math\Vector\Xbox360\hkXbox360Vector4Util.inl"
+>
+</File>
+	</Filter>
+	</Filter>
+	</Filter>
+	<Filter
+Name="Memory"
+>
+	<File
+RelativePath=".\Memory\hkDebugMemory.cpp"
+>
+</File>
+	<File
+RelativePath=".\Memory\hkDebugMemorySnapshot.cpp"
+>
+</File>
+	<File
+RelativePath=".\Memory\hkDebugMemorySnapshot.h"
+>
+</File>
+	<File
+RelativePath=".\Memory\hkThreadMemory.cpp"
+>
+</File>
+	<File
+RelativePath=".\Memory\hkThreadMemory.h"
+>
+</File>
+	<File
+RelativePath=".\Memory\hkThreadMemory.inl"
+>
+</File>
+	<Filter
+Name="Memory"
+>
+	<File
+RelativePath=".\Memory\Memory\hkMemory.cpp"
+>
+</File>
+	<File
+RelativePath=".\Memory\Memory\hkMemory.h"
+>
+</File>
+	<Filter
+Name="Debug"
+>
+	<File
+RelativePath=".\Memory\Memory\Debug\hkDebugMemory.h"
+>
+</File>
+	<File
+RelativePath=".\Memory\Memory\Debug\hkStlDebugMemory.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="FreeList"
+>
+	<File
+RelativePath=".\Memory\Memory\FreeList\hkFreeList.cpp"
+>
+</File>
+	<File
+RelativePath=".\Memory\Memory\FreeList\hkFreeList.h"
+>
+</File>
+	<File
+RelativePath=".\Memory\Memory\FreeList\hkFreeList.inl"
+>
+</File>
+	<File
+RelativePath=".\Memory\Memory\FreeList\hkFreeListMemory.cpp"
+>
+</File>
+	<File
+RelativePath=".\Memory\Memory\FreeList\hkFreeListMemory.h"
+>
+</File>
+	<File
+RelativePath=".\Memory\Memory\FreeList\hkLargeBlockAllocator.cpp"
+>
+</File>
+	<File
+RelativePath=".\Memory\Memory\FreeList\hkLargeBlockAllocator.h"
+>
+</File>
+	<Filter
+Name="FixedMemoryBlockServer"
+>
+	<File
+RelativePath=".\Memory\Memory\FreeList\FixedMemoryBlockServer\hkFixedMemoryBlockServer.cpp"
+>
+</File>
+	<File
+RelativePath=".\Memory\Memory\FreeList\FixedMemoryBlockServer\hkFixedMemoryBlockServer.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="SystemMemoryBlockServer"
+>
+	<File
+RelativePath=".\Memory\Memory\FreeList\SystemMemoryBlockServer\hkSystemMemoryBlockServer.cpp"
+>
+</File>
+	<File
+RelativePath=".\Memory\Memory\FreeList\SystemMemoryBlockServer\hkSystemMemoryBlockServer.h"
+>
+</File>
+	</Filter>
+	</Filter>
+	<Filter
+Name="Malloc"
+>
+	<File
+RelativePath=".\Memory\Memory\Malloc\hkMallocMemory.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Pool"
+>
+	<File
+RelativePath=".\Memory\Memory\Pool\hkPoolMemory.cpp"
+>
+</File>
+	<File
+RelativePath=".\Memory\Memory\Pool\hkPoolMemory.h"
+>
+</File>
+	</Filter>
+	</Filter>
+	<Filter
+Name="MemoryClasses"
+>
+	<File
+RelativePath=".\Memory\MemoryClasses\hkMemoryClassDefinitions.h"
+>
+</File>
+	<File
+RelativePath=".\Memory\MemoryClasses\hkMemoryClasses.h"
+>
+</File>
+	<File
+RelativePath=".\Memory\MemoryClasses\hkMemoryClassesTable.cpp"
+>
+</File>
+	<File
+RelativePath=".\Memory\MemoryClasses\hkMemoryClassesTable.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="PlattformUtils"
+>
+	<Filter
+Name="Spu"
+>
+	<Filter
+Name="SpuStack"
+>
+	<File
+RelativePath=".\Memory\PlattformUtils\Spu\SpuStack\hkSpuStack.cpp"
+>
+</File>
+	</Filter>
+	</Filter>
+	</Filter>
+	<Filter
+Name="Scratchpad"
+>
+	<File
+RelativePath=".\Memory\Scratchpad\hkScratchpad.cpp"
+>
+</File>
+	<File
+RelativePath=".\Memory\Scratchpad\hkScratchpad.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="StackTracer"
+>
+	<File
+RelativePath=".\Memory\StackTracer\hkStackTracer.cpp"
+>
+</File>
+	<File
+RelativePath=".\Memory\StackTracer\hkStackTracer.h"
+>
+</File>
+	</Filter>
+	</Filter>
+	<Filter
+Name="Monitor"
+>
+	<File
+RelativePath=".\Monitor\hkMonitorStream.cpp"
+>
+</File>
+	<File
+RelativePath=".\Monitor\hkMonitorStream.h"
+>
+</File>
+	<File
+RelativePath=".\Monitor\hkMonitorStream.inl"
+>
+</File>
+	<Filter
+Name="MonitorStreamAnalyzer"
+>
+	<File
+RelativePath=".\Monitor\MonitorStreamAnalyzer\hkMonitorStreamAnalyzer.cpp"
+>
+</File>
+	<File
+RelativePath=".\Monitor\MonitorStreamAnalyzer\hkMonitorStreamAnalyzer.h"
+>
+</File>
+	<File
+RelativePath=".\Monitor\MonitorStreamAnalyzer\hkMonitorStreamAnalyzerClass.cpp"
+>
+</File>
+	</Filter>
+	<Filter
+Name="XBox360"
+>
+	<File
+RelativePath=".\Monitor\XBox360\hkXBox360MonitorStream.inl"
+>
+</File>
+	</Filter>
+	</Filter>
+	<Filter
+Name="Object"
+>
+	<File
+RelativePath=".\Object\hkBaseObject.h"
+>
+</File>
+	<File
+RelativePath=".\Object\hkBaseObjectClass.cpp"
+>
+</File>
+	<File
+RelativePath=".\Object\hkReferencedObject.cpp"
+>
+</File>
+	<File
+RelativePath=".\Object\hkReferencedObject.h"
+>
+</File>
+	<File
+RelativePath=".\Object\hkReferencedObject.inl"
+>
+</File>
+	<File
+RelativePath=".\Object\hkReferencedObjectClass.cpp"
+>
+</File>
+	<File
+RelativePath=".\Object\hkSingleton.cpp"
+>
+</File>
+	<File
+RelativePath=".\Object\hkSingleton.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Reflection"
+>
+	<File
+RelativePath=".\Reflection\hkClass.cpp"
+>
+</File>
+	<File
+RelativePath=".\Reflection\hkClass.h"
+>
+</File>
+	<File
+RelativePath=".\Reflection\hkClassClass.cpp"
+>
+</File>
+	<File
+RelativePath=".\Reflection\hkClassEnum.cpp"
+>
+</File>
+	<File
+RelativePath=".\Reflection\hkClassEnum.h"
+>
+</File>
+	<File
+RelativePath=".\Reflection\hkClassEnum.inl"
+>
+</File>
+	<File
+RelativePath=".\Reflection\hkClassEnumClass.cpp"
+>
+</File>
+	<File
+RelativePath=".\Reflection\hkClassMember.cpp"
+>
+</File>
+	<File
+RelativePath=".\Reflection\hkClassMember.h"
+>
+</File>
+	<File
+RelativePath=".\Reflection\hkClassMember.inl"
+>
+</File>
+	<File
+RelativePath=".\Reflection\hkClassMemberAccessor.cpp"
+>
+</File>
+	<File
+RelativePath=".\Reflection\hkClassMemberAccessor.h"
+>
+</File>
+	<File
+RelativePath=".\Reflection\hkClassMemberClass.cpp"
+>
+</File>
+	<File
+RelativePath=".\Reflection\hkClassUpdate.cpp"
+>
+</File>
+	<File
+RelativePath=".\Reflection\hkClassVersion1Class.cpp"
+>
+</File>
+	<File
+RelativePath=".\Reflection\hkClassVersion1PaddedClass.cpp"
+>
+</File>
+	<File
+RelativePath=".\Reflection\hkCustomAttributes.h"
+>
+</File>
+	<File
+RelativePath=".\Reflection\hkCustomAttributesClass.cpp"
+>
+</File>
+	<File
+RelativePath=".\Reflection\hkFinishLoadedObjectFlag.h"
+>
+</File>
+	<File
+RelativePath=".\Reflection\hkInternalClassMember.h"
+>
+</File>
+	<File
+RelativePath=".\Reflection\hkTypeInfo.h"
+>
+</File>
+	<Filter
+Name="Attributes"
+>
+	<File
+RelativePath=".\Reflection\Attributes\hkAttributes.h"
+>
+</File>
+	<File
+RelativePath=".\Reflection\Attributes\hkAttributesClass.cpp"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Registry"
+>
+	<File
+RelativePath=".\Reflection\Registry\hkClassNameRegistry.cpp"
+>
+</File>
+	<File
+RelativePath=".\Reflection\Registry\hkClassNameRegistry.h"
+>
+</File>
+	<File
+RelativePath=".\Reflection\Registry\hkTypeInfoRegistry.cpp"
+>
+</File>
+	<File
+RelativePath=".\Reflection\Registry\hkTypeInfoRegistry.h"
+>
+</File>
+	<File
+RelativePath=".\Reflection\Registry\hkVtableClassRegistry.cpp"
+>
+</File>
+	<File
+RelativePath=".\Reflection\Registry\hkVtableClassRegistry.h"
+>
+</File>
+	</Filter>
+	</Filter>
+	<Filter
+Name="Spu"
+>
+	<Filter
+Name="Config"
+>
+	<File
+RelativePath=".\Spu\Config\hkSpuConfig.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Dma"
+>
+	<Filter
+Name="Manager"
+>
+	<Filter
+Name="Empty"
+>
+	<File
+RelativePath=".\Spu\Dma\Manager\Empty\hkEmptySpuDmaManager.inl"
+>
+</File>
+	</Filter>
+	</Filter>
+	<Filter
+Name="Utils"
+>
+	<File
+RelativePath=".\Spu\Dma\Utils\hkDefaultSpuDmaUtils.inl"
+>
+</File>
+	<File
+RelativePath=".\Spu\Dma\Utils\hkSpuDmaUtils.h"
+>
+</File>
+	</Filter>
+	</Filter>
+	</Filter>
+	<Filter
+Name="System"
+>
+	<File
+RelativePath=".\System\hkBaseSystem.cpp"
+>
+</File>
+	<File
+RelativePath=".\System\hkBaseSystem.h"
+>
+</File>
+	<Filter
+Name="Error"
+>
+	<File
+RelativePath=".\System\Error\hkDefaultError.h"
+>
+</File>
+	<File
+RelativePath=".\System\Error\hkError.cpp"
+>
+</File>
+	<File
+RelativePath=".\System\Error\hkError.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Io"
+>
+	<Filter
+Name="IArchive"
+>
+	<File
+RelativePath=".\System\Io\IArchive\hkIArchive.cpp"
+>
+</File>
+	<File
+RelativePath=".\System\Io\IArchive\hkIArchive.h"
+>
+</File>
+	<File
+RelativePath=".\System\Io\IArchive\hkIArchive.inl"
+>
+</File>
+	</Filter>
+	<Filter
+Name="IStream"
+>
+	<File
+RelativePath=".\System\Io\IStream\hkIStream.cpp"
+>
+</File>
+	<File
+RelativePath=".\System\Io\IStream\hkIStream.h"
+>
+</File>
+	<File
+RelativePath=".\System\Io\IStream\hkIStream.inl"
+>
+</File>
+	</Filter>
+	<Filter
+Name="OArchive"
+>
+	<File
+RelativePath=".\System\Io\OArchive\hkOArchive.cpp"
+>
+</File>
+	<File
+RelativePath=".\System\Io\OArchive\hkOArchive.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="OStream"
+>
+	<File
+RelativePath=".\System\Io\OStream\hkOStream.cpp"
+>
+</File>
+	<File
+RelativePath=".\System\Io\OStream\hkOStream.h"
+>
+</File>
+	<File
+RelativePath=".\System\Io\OStream\hkOStream.inl"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Reader"
+>
+	<File
+RelativePath=".\System\Io\Reader\hkStreamReader.cpp"
+>
+</File>
+	<File
+RelativePath=".\System\Io\Reader\hkStreamReader.h"
+>
+</File>
+	<Filter
+Name="Buffered"
+>
+	<File
+RelativePath=".\System\Io\Reader\Buffered\hkBufferedStreamReader.cpp"
+>
+</File>
+	<File
+RelativePath=".\System\Io\Reader\Buffered\hkBufferedStreamReader.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="LineNumber"
+>
+	<File
+RelativePath=".\System\Io\Reader\LineNumber\hkLineNumberStreamReader.cpp"
+>
+</File>
+	<File
+RelativePath=".\System\Io\Reader\LineNumber\hkLineNumberStreamReader.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Memory"
+>
+	<File
+RelativePath=".\System\Io\Reader\Memory\hkMemoryStreamReader.cpp"
+>
+</File>
+	<File
+RelativePath=".\System\Io\Reader\Memory\hkMemoryStreamReader.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Seekable"
+>
+	<File
+RelativePath=".\System\Io\Reader\Seekable\hkSeekableStreamReader.h"
+>
+</File>
+	</Filter>
+	</Filter>
+	<Filter
+Name="Socket"
+>
+	<File
+RelativePath=".\System\Io\Socket\hkSocket.cpp"
+>
+</File>
+	<File
+RelativePath=".\System\Io\Socket\hkSocket.h"
+>
+</File>
+	<Filter
+Name="Bsd"
+>
+	<File
+RelativePath=".\System\Io\Socket\Bsd\hkBsdSocket.cpp"
+>
+</File>
+	<File
+RelativePath=".\System\Io\Socket\Bsd\hkBsdSocket.h"
+>
+</File>
+	</Filter>
+	</Filter>
+	<Filter
+Name="StreambufFactory"
+>
+	<File
+RelativePath=".\System\Io\StreambufFactory\hkDefaultStreambufFactory.h"
+>
+</File>
+	<File
+RelativePath=".\System\Io\StreambufFactory\hkStreambufFactory.cpp"
+>
+</File>
+	<File
+RelativePath=".\System\Io\StreambufFactory\hkStreambufFactory.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Writer"
+>
+	<File
+RelativePath=".\System\Io\Writer\hkStreamWriter.cpp"
+>
+</File>
+	<File
+RelativePath=".\System\Io\Writer\hkStreamWriter.h"
+>
+</File>
+	<Filter
+Name="Array"
+>
+	<File
+RelativePath=".\System\Io\Writer\Array\hkArrayStreamWriter.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Buffered"
+>
+	<File
+RelativePath=".\System\Io\Writer\Buffered\hkBufferedStreamWriter.cpp"
+>
+</File>
+	<File
+RelativePath=".\System\Io\Writer\Buffered\hkBufferedStreamWriter.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Crc32"
+>
+	<File
+RelativePath=".\System\Io\Writer\Crc32\hkCrc32StreamWriter.cpp"
+>
+</File>
+	<File
+RelativePath=".\System\Io\Writer\Crc32\hkCrc32StreamWriter.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="OffsetOnly"
+>
+	<File
+RelativePath=".\System\Io\Writer\OffsetOnly\hkOffsetOnlyStreamWriter.cpp"
+>
+</File>
+	<File
+RelativePath=".\System\Io\Writer\OffsetOnly\hkOffsetOnlyStreamWriter.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="SubStream"
+>
+	<File
+RelativePath=".\System\Io\Writer\SubStream\hkSubStreamWriter.h"
+>
+</File>
+	</Filter>
+	</Filter>
+	</Filter>
+	<Filter
+Name="Stopwatch"
+>
+	<File
+RelativePath=".\System\Stopwatch\hkStopwatch.cpp"
+>
+</File>
+	<File
+RelativePath=".\System\Stopwatch\hkStopwatch.h"
+>
+</File>
+	<File
+RelativePath=".\System\Stopwatch\hkStopwatch.inl"
+>
+</File>
+	<File
+RelativePath=".\System\Stopwatch\hkSystemClock.cpp"
+>
+</File>
+	<File
+RelativePath=".\System\Stopwatch\hkSystemClock.h"
+>
+</File>
+	<Filter
+Name="Impl"
+>
+	<File
+RelativePath=".\System\Stopwatch\Impl\hkWindowsSystemClock.h"
+>
+</File>
+	</Filter>
+	</Filter>
+	</Filter>
+	<Filter
+Name="Thread"
+>
+	<Filter
+Name="CriticalSection"
+>
+	<File
+RelativePath=".\Thread\CriticalSection\hkCriticalSection.cpp"
+>
+</File>
+	<File
+RelativePath=".\Thread\CriticalSection\hkCriticalSection.h"
+>
+</File>
+	<Filter
+Name="Empty"
+>
+	<File
+RelativePath=".\Thread\CriticalSection\Empty\hkEmptyCriticalSection.inl"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Win32"
+>
+	<File
+RelativePath=".\Thread\CriticalSection\Win32\hkWin32CriticalSection.inl"
+>
+</File>
+	</Filter>
+	</Filter>
+	<Filter
+Name="JobQueue"
+>
+	<File
+RelativePath=".\Thread\JobQueue\hkJobQueue.cpp"
+>
+</File>
+	<File
+RelativePath=".\Thread\JobQueue\hkJobQueue.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Semaphore"
+>
+	<File
+RelativePath=".\Thread\Semaphore\hkSemaphore.h"
+>
+</File>
+	<File
+RelativePath=".\Thread\Semaphore\hkSemaphoreBusyWait.h"
+>
+</File>
+	<Filter
+Name="Win32"
+>
+	<File
+RelativePath=".\Thread\Semaphore\Win32\hkWin32Semaphore.cpp"
+>
+</File>
+	</Filter>
+	</Filter>
+	<Filter
+Name="Thread"
+>
+	<File
+RelativePath=".\Thread\Thread\hkThread.h"
+>
+</File>
+	<File
+RelativePath=".\Thread\Thread\hkThreadLocalData.h"
+>
+</File>
+	<Filter
+Name="Win32"
+>
+	<File
+RelativePath=".\Thread\Thread\Win32\hkWin32Thread.cpp"
+>
+</File>
+	</Filter>
+	</Filter>
+	</Filter>
+	<Filter
+Name="Types"
+>
+	<File
+RelativePath=".\Types\hkBaseTypes.cpp"
+>
+</File>
+	<File
+RelativePath=".\Types\hkBaseTypes.h"
+>
+</File>
+	<File
+RelativePath=".\Types\hkTypedUnion.h"
+>
+</File>
+	<File
+RelativePath=".\Types\hkTypedUnion.inl"
+>
+</File>
+	<Filter
+Name="Geometry"
+>
+	<File
+RelativePath=".\Types\Geometry\hkGeometry.h"
+>
+</File>
+	<File
+RelativePath=".\Types\Geometry\hkStridedVertices.h"
+>
+</File>
+	<Filter
+Name="Aabb"
+>
+	<File
+RelativePath=".\Types\Geometry\Aabb\hkAabb.cpp"
+>
+</File>
+	<File
+RelativePath=".\Types\Geometry\Aabb\hkAabb.h"
+>
+</File>
+	<File
+RelativePath=".\Types\Geometry\Aabb\hkAabb.inl"
+>
+</File>
+	<File
+RelativePath=".\Types\Geometry\Aabb\hkAabbClass.cpp"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Sphere"
+>
+	<File
+RelativePath=".\Types\Geometry\Sphere\hkSphere.h"
+>
+</File>
+	<File
+RelativePath=".\Types\Geometry\Sphere\hkSphere.inl"
+>
+</File>
+	<File
+RelativePath=".\Types\Geometry\Sphere\hkSphereClass.cpp"
+>
+</File>
+	</Filter>
+	</Filter>
+	<Filter
+Name="Physics"
+>
+	<File
+RelativePath=".\Types\Physics\hkStepInfo.h"
+>
+</File>
+	<Filter
+Name="ContactPoint"
+>
+	<File
+RelativePath=".\Types\Physics\ContactPoint\hkContactPoint.h"
+>
+</File>
+	<File
+RelativePath=".\Types\Physics\ContactPoint\hkContactPoint.inl"
+>
+</File>
+	<File
+RelativePath=".\Types\Physics\ContactPoint\hkContactPointClass.cpp"
+>
+</File>
+	<File
+RelativePath=".\Types\Physics\ContactPoint\hkContactPointMaterial.h"
+>
+</File>
+	<File
+RelativePath=".\Types\Physics\ContactPoint\hkContactPointMaterial.inl"
+>
+</File>
+	<File
+RelativePath=".\Types\Physics\ContactPoint\hkContactPointMaterialClass.cpp"
+>
+</File>
+	</Filter>
+	<Filter
+Name="MotionState"
+>
+	<File
+RelativePath=".\Types\Physics\MotionState\hkMotionState.cpp"
+>
+</File>
+	<File
+RelativePath=".\Types\Physics\MotionState\hkMotionState.h"
+>
+</File>
+	<File
+RelativePath=".\Types\Physics\MotionState\hkMotionState.inl"
+>
+</File>
+	<File
+RelativePath=".\Types\Physics\MotionState\hkMotionStateClass.cpp"
+>
+</File>
+	</Filter>
+	</Filter>
+	</Filter>
+	<Filter
+Name="UnitTest"
+>
+	<File
+RelativePath=".\UnitTest\hkUnitTest.h"
+>
+</File>
+	<File
+RelativePath=".\UnitTest\Tests.h"
+>
+</File>
+	<Filter
+Name="Algorithm"
+>
+	<File
+RelativePath=".\UnitTest\Algorithm\Algorithm.cpp"
+>
+</File>
+	<File
+RelativePath=".\UnitTest\Algorithm\Maps.cpp"
+>
+</File>
+	<File
+RelativePath=".\UnitTest\Algorithm\ObjectArray.cpp"
+>
+</File>
+	<Filter
+Name="Sort"
+>
+	<File
+RelativePath=".\UnitTest\Algorithm\Sort\sort.cpp"
+>
+</File>
+	</Filter>
+	</Filter>
+	<Filter
+Name="BaseSystem"
+>
+	<File
+RelativePath=".\UnitTest\BaseSystem\basesystem.cpp"
+>
+</File>
+	</Filter>
+	<Filter
+Name="BaseTypes"
+>
+	<Filter
+Name="BaseTypes"
+>
+	<File
+RelativePath=".\UnitTest\BaseTypes\BaseTypes\baseTypesUnitTest.cpp"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Singleton"
+>
+	<File
+RelativePath=".\UnitTest\BaseTypes\Singleton\singleton.cpp"
+>
+</File>
+	</Filter>
+	</Filter>
+	<Filter
+Name="Container"
+>
+	<File
+RelativePath=".\UnitTest\Container\BitField.cpp"
+>
+</File>
+	<File
+RelativePath=".\UnitTest\Container\LocalArray.cpp"
+>
+</File>
+	<File
+RelativePath=".\UnitTest\Container\PointerMap.cpp"
+>
+</File>
+	<File
+RelativePath=".\UnitTest\Container\Queue.cpp"
+>
+</File>
+	<File
+RelativePath=".\UnitTest\Container\SmallArray.cpp"
+>
+</File>
+	<File
+RelativePath=".\UnitTest\Container\StringMap.cpp"
+>
+</File>
+	<File
+RelativePath=".\UnitTest\Container\Tree.cpp"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Debugutil"
+>
+	<File
+RelativePath=".\UnitTest\Debugutil\monitors.cpp"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Math"
+>
+	<Filter
+Name="Linear"
+>
+	<File
+RelativePath=".\UnitTest\Math\Linear\mathfunc.cpp"
+>
+</File>
+	<File
+RelativePath=".\UnitTest\Math\Linear\matrix3.cpp"
+>
+</File>
+	<File
+RelativePath=".\UnitTest\Math\Linear\matrix4.cpp"
+>
+</File>
+	<File
+RelativePath=".\UnitTest\Math\Linear\misc.cpp"
+>
+</File>
+	<File
+RelativePath=".\UnitTest\Math\Linear\psp_vfpu.cpp"
+>
+</File>
+	<File
+RelativePath=".\UnitTest\Math\Linear\qstransform.cpp"
+>
+</File>
+	<File
+RelativePath=".\UnitTest\Math\Linear\quaternion.cpp"
+>
+</File>
+	<File
+RelativePath=".\UnitTest\Math\Linear\simdreal.cpp"
+>
+</File>
+	<File
+RelativePath=".\UnitTest\Math\Linear\transform.cpp"
+>
+</File>
+	<File
+RelativePath=".\UnitTest\Math\Linear\vector3.cpp"
+>
+</File>
+	<File
+RelativePath=".\UnitTest\Math\Linear\vector3util.cpp"
+>
+</File>
+	</Filter>
+	</Filter>
+	<Filter
+Name="Stopwatch"
+>
+	<File
+RelativePath=".\UnitTest\Stopwatch\stopwatch.cpp"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Stream"
+>
+	<File
+RelativePath=".\UnitTest\Stream\crc32stream.cpp"
+>
+</File>
+	<File
+RelativePath=".\UnitTest\Stream\stream.cpp"
+>
+</File>
+	</Filter>
+	<Filter
+Name="String"
+>
+	<File
+RelativePath=".\UnitTest\String\string.cpp"
+>
+</File>
+	</Filter>
+	<Filter
+Name="_blank"
+>
+	<File
+RelativePath=".\UnitTest\_blank\blank.cpp"
+>
+</File>
+	</Filter>
+	</Filter>
+	<File
+RelativePath=".\hkBase.cpp"
+>
+	<FileConfiguration Name="fulldebug multithreaded|Xbox 360"> 
+		<Tool Name="VCCLX360CompilerTool" UsePrecompiledHeader="1"/>
+	</FileConfiguration>
+	<FileConfiguration Name="debug multithreaded|Xbox 360"> 
+		<Tool Name="VCCLX360CompilerTool" UsePrecompiledHeader="1"/>
+	</FileConfiguration>
+	<FileConfiguration Name="release multithreaded|Xbox 360"> 
+		<Tool Name="VCCLX360CompilerTool" UsePrecompiledHeader="1"/>
+	</FileConfiguration>
+</File>
+	<File
+RelativePath=".\hkBase.h"
+>
+</File>
+
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>
+

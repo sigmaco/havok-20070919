@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="8.00"
+	Name="hkVisualize"
+	ProjectGUID="{475D4C95-2FB4-4531-9215-9EF5602EF252}"
+	>
+	<Platforms>
+		<Platform
+			Name="Xbox 360"
+		/>
+	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
+	<Configurations>
+		<Configuration
+			Name="Release Multithreaded|Xbox 360"
+			OutputDirectory="..\..\..\Lib\xbox360_net_8-0\release_multithreaded"
+			IntermediateDirectory="..\..\..\Obj\xbox360_net_8-0\release_multithreaded\hkVisualize"
+			ConfigurationType="4"
+			UseOfMFC="-1"
+			UseOfATL="0"
+			CharacterSet="2"
+			WholeProgramOptimization="false">
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool Name="VCCustomBuildTool" 			 />
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+			/>
+			<Tool
+				Name="VCCLX360CompilerTool"
+				AdditionalOptions="/QVMX128 /QVMXReserve"
+				Optimization="3"
+				FavorSizeOrSpeed="1"
+				AdditionalIncludeDirectories="..\..,"
+				PreprocessorDefinitions="_XBOX,XBOX,NDEBUG,_LIB,,HK_DISABLE_VECTOR4_CONSTRUCTORS"
+				StringPooling="TRUE"
+				MinimalRebuild="false"
+				ExceptionHandling="0"
+				RuntimeLibrary="0"
+				BufferSecurityCheck="false"
+				EnableFunctionLevelLinking="FALSE"
+				RuntimeTypeInfo="TRUE"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="Common/Visualize/hkVisualize.h"
+				PrecompiledHeaderFile="$(INTDIR)\Visualize.pch"
+				AssemblerListingLocation="$(INTDIR)/"
+				ObjectFile="$(INTDIR)/"
+				ProgramDataBaseFileName="$(OUTDIR)/$(TARGETNAME).pdb"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				Detect64BitPortabilityProblems="FALSE"
+				DebugInformationFormat="3"
+			/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="$(OUTDIR)\hkVisualize.lib"
+				SuppressStartupBanner="TRUE"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+		</Configuration>
+		<Configuration
+			Name="FullDebug Multithreaded|Xbox 360"
+			OutputDirectory="..\..\..\Lib\xbox360_net_8-0\fulldebug_multithreaded"
+			IntermediateDirectory="..\..\..\Obj\xbox360_net_8-0\fulldebug_multithreaded\hkVisualize"
+			ConfigurationType="4"
+			UseOfMFC="-1"
+			UseOfATL="0"
+			CharacterSet="2"
+			WholeProgramOptimization="false">
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool Name="VCCustomBuildTool" 			 />
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+			/>
+			<Tool
+				Name="VCCLX360CompilerTool"
+				AdditionalOptions="/QVMX128 /QVMXReserve"
+				Optimization="0"
+				FavorSizeOrSpeed="0"
+				AdditionalIncludeDirectories="..\..,"
+				PreprocessorDefinitions="_XBOX,XBOX,_DEBUG,HK_DEBUG,HK_FULLDEBUG,_LIB,,HK_DISABLE_VECTOR4_CONSTRUCTORS"
+				StringPooling="TRUE"
+				MinimalRebuild="true"
+				ExceptionHandling="0"
+				RuntimeLibrary="1"
+				BufferSecurityCheck="false"
+				EnableFunctionLevelLinking="FALSE"
+				RuntimeTypeInfo="TRUE"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="Common/Visualize/hkVisualize.h"
+				PrecompiledHeaderFile="$(INTDIR)\Visualize.pch"
+				AssemblerListingLocation="$(INTDIR)/"
+				ObjectFile="$(INTDIR)/"
+				ProgramDataBaseFileName="$(OUTDIR)/$(TARGETNAME).pdb"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				Detect64BitPortabilityProblems="FALSE"
+				DebugInformationFormat="3"
+			/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="$(OUTDIR)\hkVisualize.lib"
+				SuppressStartupBanner="TRUE"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+		</Configuration>
+		<Configuration
+			Name="Debug Multithreaded|Xbox 360"
+			OutputDirectory="..\..\..\Lib\xbox360_net_8-0\debug_multithreaded"
+			IntermediateDirectory="..\..\..\Obj\xbox360_net_8-0\debug_multithreaded\hkVisualize"
+			ConfigurationType="4"
+			UseOfMFC="-1"
+			UseOfATL="0"
+			CharacterSet="2"
+			WholeProgramOptimization="false">
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool Name="VCCustomBuildTool" 			 />
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+			/>
+			<Tool
+				Name="VCCLX360CompilerTool"
+				AdditionalOptions="/QVMX128 /QVMXReserve"
+				Optimization="3"
+				FavorSizeOrSpeed="1"
+				AdditionalIncludeDirectories="..\..,"
+				PreprocessorDefinitions="_XBOX,XBOX,_DEBUG,HK_DEBUG,_LIB,,HK_DISABLE_VECTOR4_CONSTRUCTORS"
+				StringPooling="TRUE"
+				MinimalRebuild="true"
+				ExceptionHandling="0"
+				RuntimeLibrary="1"
+				BufferSecurityCheck="false"
+				EnableFunctionLevelLinking="FALSE"
+				RuntimeTypeInfo="TRUE"
+				UsePrecompiledHeader="2"
+				PrecompiledHeaderThrough="Common/Visualize/hkVisualize.h"
+				PrecompiledHeaderFile="$(INTDIR)\Visualize.pch"
+				AssemblerListingLocation="$(INTDIR)/"
+				ObjectFile="$(INTDIR)/"
+				ProgramDataBaseFileName="$(OUTDIR)/$(TARGETNAME).pdb"
+				WarningLevel="4"
+				SuppressStartupBanner="TRUE"
+				Detect64BitPortabilityProblems="FALSE"
+				DebugInformationFormat="3"
+			/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="$(OUTDIR)\hkVisualize.lib"
+				SuppressStartupBanner="TRUE"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+		</Configuration>
+
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+			<Filter
+Name="Process"
+>
+	<File
+RelativePath=".\Process\hkDebugDisplayProcess.cpp"
+>
+</File>
+	<File
+RelativePath=".\Process\hkDebugDisplayProcess.h"
+>
+</File>
+	<File
+RelativePath=".\Process\hkInspectProcess.cpp"
+>
+</File>
+	<File
+RelativePath=".\Process\hkInspectProcess.h"
+>
+</File>
+	<File
+RelativePath=".\Process\hkStatisticsProcess.cpp"
+>
+</File>
+	<File
+RelativePath=".\Process\hkStatisticsProcess.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Serialize"
+>
+	<File
+RelativePath=".\Serialize\hkDisplaySerializeIStream.cpp"
+>
+</File>
+	<File
+RelativePath=".\Serialize\hkDisplaySerializeIStream.h"
+>
+</File>
+	<File
+RelativePath=".\Serialize\hkDisplaySerializeOStream.cpp"
+>
+</File>
+	<File
+RelativePath=".\Serialize\hkDisplaySerializeOStream.h"
+>
+</File>
+	<File
+RelativePath=".\Serialize\hkObjectSerialize.cpp"
+>
+</File>
+	<File
+RelativePath=".\Serialize\hkObjectSerialize.h"
+>
+</File>
+	<File
+RelativePath=".\Serialize\hkObjectSerializeRegistry.cpp"
+>
+</File>
+	<File
+RelativePath=".\Serialize\hkObjectSerializeRegistry.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Shape"
+>
+	<File
+RelativePath=".\Shape\hkDisplayAABB.cpp"
+>
+</File>
+	<File
+RelativePath=".\Shape\hkDisplayAABB.h"
+>
+</File>
+	<File
+RelativePath=".\Shape\hkDisplayBox.cpp"
+>
+</File>
+	<File
+RelativePath=".\Shape\hkDisplayBox.h"
+>
+</File>
+	<File
+RelativePath=".\Shape\hkDisplayCapsule.cpp"
+>
+</File>
+	<File
+RelativePath=".\Shape\hkDisplayCapsule.h"
+>
+</File>
+	<File
+RelativePath=".\Shape\hkDisplayCone.cpp"
+>
+</File>
+	<File
+RelativePath=".\Shape\hkDisplayCone.h"
+>
+</File>
+	<File
+RelativePath=".\Shape\hkDisplayConvex.cpp"
+>
+</File>
+	<File
+RelativePath=".\Shape\hkDisplayConvex.h"
+>
+</File>
+	<File
+RelativePath=".\Shape\hkDisplayCylinder.cpp"
+>
+</File>
+	<File
+RelativePath=".\Shape\hkDisplayCylinder.h"
+>
+</File>
+	<File
+RelativePath=".\Shape\hkDisplayGeometry.cpp"
+>
+</File>
+	<File
+RelativePath=".\Shape\hkDisplayGeometry.h"
+>
+</File>
+	<File
+RelativePath=".\Shape\hkDisplayGeometry.inl"
+>
+</File>
+	<File
+RelativePath=".\Shape\hkDisplayGeometryTypes.h"
+>
+</File>
+	<File
+RelativePath=".\Shape\hkDisplayPlane.cpp"
+>
+</File>
+	<File
+RelativePath=".\Shape\hkDisplayPlane.h"
+>
+</File>
+	<File
+RelativePath=".\Shape\hkDisplaySemiCircle.cpp"
+>
+</File>
+	<File
+RelativePath=".\Shape\hkDisplaySemiCircle.h"
+>
+</File>
+	<File
+RelativePath=".\Shape\hkDisplaySphere.cpp"
+>
+</File>
+	<File
+RelativePath=".\Shape\hkDisplaySphere.h"
+>
+</File>
+	</Filter>
+	<Filter
+Name="Type"
+>
+	<File
+RelativePath=".\Type\hkColor.cpp"
+>
+</File>
+	<File
+RelativePath=".\Type\hkColor.h"
+>
+</File>
+	<File
+RelativePath=".\Type\hkKeyboard.h"
+>
+</File>
+	</Filter>
+	<File
+RelativePath=".\hkCommandRouter.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkCommandRouter.h"
+>
+</File>
+	<File
+RelativePath=".\hkDebugDisplay.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkDebugDisplay.h"
+>
+</File>
+	<File
+RelativePath=".\hkDebugDisplayHandler.h"
+>
+</File>
+	<File
+RelativePath=".\hkDrawUtil.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkDrawUtil.h"
+>
+</File>
+	<File
+RelativePath=".\hkProcess.h"
+>
+</File>
+	<File
+RelativePath=".\hkProcessContext.h"
+>
+</File>
+	<File
+RelativePath=".\hkProcessFactory.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkProcessFactory.h"
+>
+</File>
+	<File
+RelativePath=".\hkProcessHandler.h"
+>
+</File>
+	<File
+RelativePath=".\hkProcessRegisterUtil.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkProcessRegisterUtil.h"
+>
+</File>
+	<File
+RelativePath=".\hkServerDebugDisplayHandler.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkServerDebugDisplayHandler.h"
+>
+</File>
+	<File
+RelativePath=".\hkServerProcessHandler.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkServerProcessHandler.h"
+>
+</File>
+	<File
+RelativePath=".\hkVersionReporter.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkVersionReporter.h"
+>
+</File>
+	<File
+RelativePath=".\hkVisualDebugger.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkVisualDebugger.h"
+>
+</File>
+	<File
+RelativePath=".\hkVisualDebuggerDebugOutput.cpp"
+>
+</File>
+	<File
+RelativePath=".\hkVisualDebuggerDebugOutput.h"
+>
+</File>
+	<File
+RelativePath=".\hkVisualize.cpp"
+>
+	<FileConfiguration Name="fulldebug multithreaded|Xbox 360"> 
+		<Tool Name="VCCLX360CompilerTool" UsePrecompiledHeader="1"/>
+	</FileConfiguration>
+	<FileConfiguration Name="debug multithreaded|Xbox 360"> 
+		<Tool Name="VCCLX360CompilerTool" UsePrecompiledHeader="1"/>
+	</FileConfiguration>
+	<FileConfiguration Name="release multithreaded|Xbox 360"> 
+		<Tool Name="VCCLX360CompilerTool" UsePrecompiledHeader="1"/>
+	</FileConfiguration>
+</File>
+	<File
+RelativePath=".\hkVisualize.h"
+>
+</File>
+
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>
+
