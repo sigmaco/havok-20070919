@@ -68,3 +68,9 @@ The SIGMA thanks [all the contributors][contributors] by their individual and co
 [license]: https://github.com/sigmaco/havok-20070919/blob/master/LICENSE.txt
 [contributors]: https://github.com/sigmaco/havok-20070919/graphs/contributors
 [contribute-guide]: https://github.com/sigmaco/havok-20070919/blob/master/docs/CONTRIBUTING.md
+
+Administrative contact: archivo@sigmaco.org. 
+
+Technical contact: tech@sigmaco.org. 
+
+Legal contact: legal@sigmaco.org.
